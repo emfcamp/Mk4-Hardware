@@ -14108,8 +14108,6 @@ Simple slide switch. Spark Fun Electronics SKU : COM-00102</description>
 <sheets>
 <sheet>
 <plain>
-<text x="-160.02" y="0" size="1.778" layer="91">still to connect:</text>
-<text x="-139.7" y="0" size="1.778" layer="91">s0, 1, 2, 3, 29, 30</text>
 <text x="76.2" y="-99.06" size="1.778" layer="91">ESD!</text>
 <text x="-81.28" y="121.92" size="1.778" layer="91">SPEC THIS PART!!!</text>
 <text x="-96.52" y="91.44" size="1.778" layer="91" rot="R90">CONNECTED CORRECTLY?</text>
@@ -14147,6 +14145,8 @@ Switch</text>
 <wire x1="-403.86" y1="-185.42" x2="-378.46" y2="-185.42" width="0.1524" layer="150" style="dashdot"/>
 <wire x1="-378.46" y1="-185.42" x2="-378.46" y2="-132.08" width="0.1524" layer="150" style="dashdot"/>
 <wire x1="-378.46" y1="-132.08" x2="-403.86" y2="-132.08" width="0.1524" layer="150" style="dashdot"/>
+<text x="78.74" y="-35.56" size="1.778" layer="91" rot="R270">NEEDS LEVEL SHIFTERS!!</text>
+<text x="-187.96" y="-5.08" size="1.778" layer="91">CHECK ALL SPI PINS (TI names are different to mosi etc)</text>
 </plain>
 <instances>
 <instance part="IC2" gate="G$1" x="121.92" y="60.96"/>
@@ -15191,6 +15191,11 @@ Switch</text>
 <wire x1="142.24" y1="81.28" x2="137.16" y2="81.28" width="0.1524" layer="91"/>
 <label x="139.7" y="81.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="GHJ" pin="PH0"/>
+<wire x1="-96.52" y1="-30.48" x2="-91.44" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-93.98" y="-30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="S1" class="0">
 <segment>
@@ -15202,6 +15207,11 @@ Switch</text>
 <pinref part="IC2" gate="G$1" pin="DQ1"/>
 <wire x1="137.16" y1="78.74" x2="142.24" y2="78.74" width="0.1524" layer="91"/>
 <label x="139.7" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="GHJ" pin="PH1"/>
+<wire x1="-96.52" y1="-33.02" x2="-91.44" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-93.98" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S2" class="0">
@@ -15215,6 +15225,11 @@ Switch</text>
 <wire x1="142.24" y1="76.2" x2="137.16" y2="76.2" width="0.1524" layer="91"/>
 <label x="139.7" y="76.2" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="GHJ" pin="PH2"/>
+<wire x1="-91.44" y1="-35.56" x2="-96.52" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-93.98" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="S3" class="0">
 <segment>
@@ -15226,6 +15241,11 @@ Switch</text>
 <pinref part="IC2" gate="G$1" pin="DQ3"/>
 <wire x1="137.16" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 <label x="139.7" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="GHJ" pin="PH3"/>
+<wire x1="-96.52" y1="-38.1" x2="-91.44" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-93.98" y="-38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S4" class="0">
@@ -15457,12 +15477,22 @@ Switch</text>
 <wire x1="109.22" y1="81.28" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
 <label x="106.68" y="81.28" size="1.778" layer="95" rot="MR0"/>
 </segment>
+<segment>
+<pinref part="IC1" gate="P" pin="PP2"/>
+<wire x1="-38.1" y1="-30.48" x2="-33.02" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-35.56" y="-30.48" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="S30" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="CKE"/>
 <wire x1="104.14" y1="83.82" x2="109.22" y2="83.82" width="0.1524" layer="91"/>
 <label x="106.68" y="83.82" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="P" pin="PP3"/>
+<wire x1="-33.02" y1="-33.02" x2="-38.1" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-35.56" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S31" class="0">
@@ -15895,16 +15925,28 @@ Switch</text>
 <wire x1="124.46" y1="-20.32" x2="124.46" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="SIM_TX" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="UART1_TXD"/>
 <wire x1="99.06" y1="-60.96" x2="81.28" y2="-60.96" width="0.1524" layer="91"/>
+<label x="81.28" y="-60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="GHJ" pin="PJ0"/>
+<wire x1="-96.52" y1="-40.64" x2="-91.44" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-93.98" y="-40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="SIM_RX" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="UART1_RXD"/>
 <wire x1="81.28" y1="-63.5" x2="99.06" y2="-63.5" width="0.1524" layer="91"/>
+<label x="81.28" y="-63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="GHJ" pin="PJ1"/>
+<wire x1="-91.44" y1="-43.18" x2="-96.52" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-93.98" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -15921,46 +15963,10 @@ Switch</text>
 <wire x1="152.4" y1="-200.66" x2="165.1" y2="-200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$50" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="SPI_CLK"/>
-<wire x1="165.1" y1="-203.2" x2="152.4" y2="-203.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$51" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="SPI_DIN"/>
-<wire x1="152.4" y1="-205.74" x2="165.1" y2="-205.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="SPI_DOUT"/>
-<wire x1="165.1" y1="-208.28" x2="152.4" y2="-208.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$53" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="!SPI_CS"/>
-<wire x1="152.4" y1="-210.82" x2="165.1" y2="-210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$54" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="IRQ"/>
 <wire x1="165.1" y1="-213.36" x2="152.4" y2="-213.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="UART1_TX"/>
-<wire x1="152.4" y1="-218.44" x2="165.1" y2="-218.44" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="IC4" gate="G$1" pin="UART1_RX"/>
-<wire x1="165.1" y1="-220.98" x2="152.4" y2="-220.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -16047,18 +16053,6 @@ Switch</text>
 <segment>
 <pinref part="J3" gate="G$1" pin="RESET"/>
 <wire x1="-129.54" y1="289.56" x2="-139.7" y2="289.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$64" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="SDO"/>
-<wire x1="-129.54" y1="220.98" x2="-137.16" y2="220.98" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$65" class="0">
-<segment>
-<pinref part="J3" gate="G$1" pin="SDI"/>
-<wire x1="-137.16" y1="218.44" x2="-129.54" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$66" class="0">
@@ -16413,6 +16407,130 @@ Switch</text>
 <segment>
 <pinref part="Q6" gate="G$1" pin="D"/>
 <wire x1="-373.38" y1="-139.7" x2="-383.54" y2="-139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$72" class="0">
+<segment>
+<pinref part="IC1" gate="K" pin="PK0"/>
+<wire x1="-96.52" y1="-55.88" x2="-93.98" y2="-55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="CC_TX" class="0">
+<segment>
+<pinref part="IC1" gate="D" pin="PD4"/>
+<wire x1="-149.86" y1="-63.5" x2="-157.48" y2="-63.5" width="0.1524" layer="91"/>
+<label x="-154.94" y="-63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="UART1_TX"/>
+<wire x1="152.4" y1="-218.44" x2="165.1" y2="-218.44" width="0.1524" layer="91"/>
+<label x="160.02" y="-218.44" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CC_RX" class="0">
+<segment>
+<pinref part="IC1" gate="D" pin="PD5"/>
+<wire x1="-157.48" y1="-66.04" x2="-149.86" y2="-66.04" width="0.1524" layer="91"/>
+<label x="-154.94" y="-66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="UART1_RX"/>
+<wire x1="165.1" y1="-220.98" x2="152.4" y2="-220.98" width="0.1524" layer="91"/>
+<label x="160.02" y="-220.98" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_CLK" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="PA2"/>
+<wire x1="-187.96" y1="-30.48" x2="-182.88" y2="-30.48" width="0.1524" layer="91"/>
+<label x="-185.42" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-165.1" y1="213.36" x2="-157.48" y2="213.36" width="0.1524" layer="91"/>
+<label x="-162.56" y="213.36" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_CS" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="PA3"/>
+<wire x1="-182.88" y1="-33.02" x2="-187.96" y2="-33.02" width="0.1524" layer="91"/>
+<label x="-185.42" y="-33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-165.1" y1="210.82" x2="-157.48" y2="210.82" width="0.1524" layer="91"/>
+<label x="-162.56" y="210.82" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LCD_MISO" class="0">
+<segment>
+<pinref part="IC1" gate="A" pin="PA5"/>
+<wire x1="-187.96" y1="-38.1" x2="-182.88" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-185.42" y="-38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="SDO"/>
+<wire x1="-129.54" y1="220.98" x2="-137.16" y2="220.98" width="0.1524" layer="91"/>
+<label x="-134.62" y="220.98" size="1.778" layer="95" rot="MR0"/>
+</segment>
+</net>
+<net name="LCD_MOSI" class="0">
+<segment>
+<pinref part="J3" gate="G$1" pin="SDI"/>
+<wire x1="-137.16" y1="218.44" x2="-129.54" y2="218.44" width="0.1524" layer="91"/>
+<label x="-134.62" y="218.44" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="A" pin="PA4"/>
+<wire x1="-187.96" y1="-35.56" x2="-182.88" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-185.42" y="-35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CC_MOSI" class="0">
+<segment>
+<pinref part="IC1" gate="D" pin="PD1"/>
+<wire x1="-149.86" y1="-55.88" x2="-157.48" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-154.94" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SPI_DIN"/>
+<wire x1="152.4" y1="-205.74" x2="165.1" y2="-205.74" width="0.1524" layer="91"/>
+<label x="160.02" y="-205.74" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CC_CLK" class="0">
+<segment>
+<pinref part="IC1" gate="D" pin="PD3"/>
+<wire x1="-149.86" y1="-60.96" x2="-157.48" y2="-60.96" width="0.1524" layer="91"/>
+<label x="-154.94" y="-60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SPI_CLK"/>
+<wire x1="165.1" y1="-203.2" x2="152.4" y2="-203.2" width="0.1524" layer="91"/>
+<label x="160.02" y="-203.2" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CC_MISO" class="0">
+<segment>
+<pinref part="IC1" gate="D" pin="PD0"/>
+<wire x1="-157.48" y1="-53.34" x2="-149.86" y2="-53.34" width="0.1524" layer="91"/>
+<label x="-154.94" y="-53.34" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SPI_DOUT"/>
+<wire x1="165.1" y1="-208.28" x2="152.4" y2="-208.28" width="0.1524" layer="91"/>
+<label x="160.02" y="-208.28" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CC_CS" class="0">
+<segment>
+<pinref part="IC1" gate="D" pin="PD2"/>
+<wire x1="-157.48" y1="-58.42" x2="-149.86" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-154.94" y="-58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="!SPI_CS"/>
+<wire x1="152.4" y1="-210.82" x2="165.1" y2="-210.82" width="0.1524" layer="91"/>
+<label x="160.02" y="-210.82" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
