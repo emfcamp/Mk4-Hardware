@@ -15852,6 +15852,41 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="Testpoint">
+<packages>
+<package name="TP">
+<pad name="P$1" x="0" y="0" drill="0.6"/>
+</package>
+</packages>
+<symbols>
+<symbol name="TP">
+<pin name="P$1" x="0" y="0" visible="pad" length="short" direction="out" rot="R90"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="1.27" y1="3.81" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="2.54" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TP" prefix="TP">
+<gates>
+<gate name="G$1" symbol="TP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -16118,6 +16153,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP14" library="TiLDA Mk4 Parts" deviceset="M03" device="PTH"/>
 <part name="GND78" library="supply1" deviceset="GND" device=""/>
 <part name="GND79" library="supply1" deviceset="GND" device=""/>
+<part name="TP1" library="Testpoint" deviceset="TP" device=""/>
+<part name="TP2" library="Testpoint" deviceset="TP" device=""/>
+<part name="TP3" library="Testpoint" deviceset="TP" device=""/>
+<part name="TP4" library="Testpoint" deviceset="TP" device=""/>
+<part name="TP5" library="Testpoint" deviceset="TP" device=""/>
+<part name="TP6" library="Testpoint" deviceset="TP" device=""/>
+<part name="TP7" library="Testpoint" deviceset="TP" device=""/>
+<part name="TP8" library="Testpoint" deviceset="TP" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16448,6 +16491,14 @@ Switch</text>
 <instance part="JP14" gate="G$1" x="91.44" y="-68.58"/>
 <instance part="GND78" gate="1" x="99.06" y="-73.66"/>
 <instance part="GND79" gate="1" x="78.74" y="-68.58"/>
+<instance part="TP1" gate="G$1" x="-403.86" y="-68.58"/>
+<instance part="TP2" gate="G$1" x="93.98" y="-195.58"/>
+<instance part="TP3" gate="G$1" x="86.36" y="-40.64" rot="R180"/>
+<instance part="TP4" gate="G$1" x="76.2" y="-17.78"/>
+<instance part="TP5" gate="G$1" x="251.46" y="-27.94"/>
+<instance part="TP6" gate="G$1" x="251.46" y="-30.48" rot="R180"/>
+<instance part="TP7" gate="G$1" x="-198.12" y="104.14" rot="R90"/>
+<instance part="TP8" gate="G$1" x="-134.62" y="294.64" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -17157,6 +17208,7 @@ Switch</text>
 <pinref part="+3V10" gate="G$1" pin="+3V3"/>
 <junction x="-134.62" y="297.18"/>
 <junction x="-134.62" y="294.64"/>
+<pinref part="TP8" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="P" pin="VDDQ@4"/>
@@ -18039,7 +18091,10 @@ Switch</text>
 <junction x="220.98" y="-27.94"/>
 <wire x1="220.98" y1="-27.94" x2="226.06" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="226.06" y="-27.94"/>
-<wire x1="226.06" y1="-27.94" x2="256.54" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="-27.94" x2="251.46" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="TP5" gate="G$1" pin="P$1"/>
+<wire x1="251.46" y1="-27.94" x2="256.54" y2="-27.94" width="0.1524" layer="91"/>
+<junction x="251.46" y="-27.94"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -18057,9 +18112,12 @@ Switch</text>
 <pinref part="C28" gate="G$1" pin="2"/>
 <junction x="220.98" y="-35.56"/>
 <wire x1="220.98" y1="-35.56" x2="215.9" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="-30.48" x2="233.68" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="-30.48" x2="251.46" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="-30.48" x2="233.68" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="-30.48" x2="233.68" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="-35.56" x2="226.06" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="TP6" gate="G$1" pin="P$1"/>
+<junction x="251.46" y="-30.48"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -18408,11 +18466,14 @@ Switch</text>
 <pinref part="IC8" gate="G$1" pin="PSEL"/>
 <wire x1="-347.98" y1="-63.5" x2="-360.68" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="-360.68" y1="-63.5" x2="-360.68" y2="-68.58" width="0.1524" layer="91"/>
-<wire x1="-360.68" y1="-68.58" x2="-408.94" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="-360.68" y1="-68.58" x2="-403.86" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="R24" gate="G$1" pin="P$1"/>
+<wire x1="-403.86" y1="-68.58" x2="-408.94" y2="-68.58" width="0.1524" layer="91"/>
 <wire x1="-408.94" y1="-68.58" x2="-411.48" y2="-68.58" width="0.1524" layer="91"/>
 <junction x="-408.94" y="-68.58"/>
 <pinref part="R25" gate="G$1" pin="P$2"/>
+<pinref part="TP1" gate="G$1" pin="P$1"/>
+<junction x="-403.86" y="-68.58"/>
 </segment>
 </net>
 <net name="BQ_SCL" class="0">
@@ -18788,6 +18849,7 @@ Switch</text>
 <wire x1="71.12" y1="-27.94" x2="20.32" y2="-27.94" width="0.1524" layer="91"/>
 <junction x="71.12" y="-17.78"/>
 <label x="22.86" y="-27.94" size="1.778" layer="95"/>
+<pinref part="TP4" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="P" pin="PP4"/>
@@ -18889,6 +18951,7 @@ Switch</text>
 <junction x="93.98" y="-200.66"/>
 <junction x="93.98" y="-195.58"/>
 <label x="83.82" y="-195.58" size="1.778" layer="95"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="K" pin="PK0"/>
@@ -18983,8 +19046,11 @@ Switch</text>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="STATUS"/>
-<wire x1="99.06" y1="-40.64" x2="78.74" y2="-40.64" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-40.64" x2="86.36" y2="-40.64" width="0.1524" layer="91"/>
 <label x="78.74" y="-40.64" size="1.778" layer="95"/>
+<pinref part="TP3" gate="G$1" pin="P$1"/>
+<wire x1="86.36" y1="-40.64" x2="78.74" y2="-40.64" width="0.1524" layer="91"/>
+<junction x="86.36" y="-40.64"/>
 </segment>
 </net>
 <net name="LEDA" class="0">
@@ -19177,6 +19243,12 @@ Switch</text>
 <segment>
 <pinref part="IC3" gate="G$1" pin="UART2_TXD"/>
 <pinref part="JP14" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="N$80" class="0">
+<segment>
+<pinref part="IC1" gate="MISC" pin="/HIB"/>
+<pinref part="TP7" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 </nets>
