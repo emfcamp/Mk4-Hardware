@@ -16715,8 +16715,8 @@ Switch</text>
 <instance part="GND75" gate="1" x="193.04" y="-116.84"/>
 <instance part="JP10" gate="G$1" x="157.48" y="-111.76" rot="R180"/>
 <instance part="JP11" gate="G$1" x="160.02" y="-124.46" rot="R180"/>
-<instance part="JP12" gate="G$1" x="96.52" y="-93.98"/>
-<instance part="GND76" gate="1" x="104.14" y="-101.6"/>
+<instance part="JP12" gate="G$1" x="86.36" y="-109.22"/>
+<instance part="GND76" gate="1" x="93.98" y="-116.84"/>
 <instance part="JP6" gate="G$1" x="-215.9" y="213.36"/>
 <instance part="GND77" gate="1" x="-205.74" y="205.74"/>
 <instance part="JP13" gate="G$1" x="35.56" y="71.12"/>
@@ -19471,30 +19471,6 @@ Switch</text>
 <pinref part="JP11" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="N$66" class="0">
-<segment>
-<pinref part="IC10" gate="G$1" pin="!FLASH_CS"/>
-<pinref part="JP12" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$69" class="0">
-<segment>
-<pinref part="IC10" gate="G$1" pin="FLASH_CLK"/>
-<pinref part="JP12" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="N$70" class="0">
-<segment>
-<pinref part="IC10" gate="G$1" pin="FLASH_MOSI"/>
-<pinref part="JP12" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="IC10" gate="G$1" pin="FLASH_MISO"/>
-<pinref part="JP12" gate="G$1" pin="5"/>
-</segment>
-</net>
 <net name="N$80" class="0">
 <segment>
 <pinref part="IC1" gate="MISC" pin="/HIB"/>
@@ -19601,6 +19577,34 @@ Switch</text>
 <pinref part="TP4" gate="G$1" pin="P$1"/>
 <pinref part="R35" gate="G$1" pin="P$1"/>
 <wire x1="55.88" y1="93.98" x2="71.12" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$70" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="FLASH_MOSI"/>
+<pinref part="JP12" gate="G$1" pin="5"/>
+<wire x1="104.14" y1="-91.44" x2="93.98" y2="-104.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$66" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="FLASH_CLK"/>
+<pinref part="JP12" gate="G$1" pin="4"/>
+<wire x1="104.14" y1="-93.98" x2="93.98" y2="-106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$69" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="!FLASH_CS"/>
+<pinref part="JP12" gate="G$1" pin="3"/>
+<wire x1="104.14" y1="-96.52" x2="93.98" y2="-109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$71" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="FLASH_MISO"/>
+<pinref part="JP12" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="-88.9" x2="93.98" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
