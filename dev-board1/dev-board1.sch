@@ -16394,6 +16394,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R44" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="5.6k"/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND80" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16751,6 +16752,7 @@ Switch</text>
 <instance part="R44" gate="G$1" x="-358.14" y="-15.24" rot="R270"/>
 <instance part="+3V18" gate="G$1" x="-358.14" y="-7.62"/>
 <instance part="+3V19" gate="G$1" x="-360.68" y="-10.16"/>
+<instance part="GND80" gate="1" x="-43.18" y="-137.16"/>
 </instances>
 <busses>
 </busses>
@@ -17352,6 +17354,10 @@ Switch</text>
 <segment>
 <pinref part="R42" gate="G$1" pin="P$2"/>
 <pinref part="GND86" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="JP15" gate="G$1" pin="COM"/>
+<pinref part="GND80" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -19605,6 +19611,67 @@ Switch</text>
 <pinref part="IC10" gate="G$1" pin="FLASH_MISO"/>
 <pinref part="JP12" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="-88.9" x2="93.98" y2="-111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="JOYU" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="UP"/>
+<wire x1="-43.18" y1="-129.54" x2="-50.8" y2="-129.54" width="0.1524" layer="91"/>
+<label x="-48.26" y="-129.54" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="M" pin="PM7"/>
+<wire x1="-58.42" y1="-43.18" x2="-66.04" y2="-43.18" width="0.1524" layer="91"/>
+<label x="-63.5" y="-43.18" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="JOYD" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="DOWN"/>
+<wire x1="-53.34" y1="-132.08" x2="-43.18" y2="-132.08" width="0.1524" layer="91"/>
+<label x="-48.26" y="-132.08" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="M" pin="PM6"/>
+<wire x1="-66.04" y1="-40.64" x2="-58.42" y2="-40.64" width="0.1524" layer="91"/>
+<label x="-63.5" y="-40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="JOYC" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="CENT"/>
+<wire x1="-17.78" y1="-134.62" x2="-5.08" y2="-134.62" width="0.1524" layer="91"/>
+<label x="-12.7" y="-134.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="K" pin="PK7"/>
+<wire x1="-96.52" y1="-73.66" x2="-96.52" y2="-83.82" width="0.1524" layer="91"/>
+<label x="-93.98" y="-73.66" size="1.778" layer="95"/>
+<wire x1="-96.52" y1="-73.66" x2="-91.44" y2="-73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="JOYL" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="LEFT"/>
+<wire x1="-5.08" y1="-132.08" x2="-17.78" y2="-132.08" width="0.1524" layer="91"/>
+<label x="-12.7" y="-132.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="M" pin="PM5"/>
+<wire x1="-66.04" y1="-38.1" x2="-58.42" y2="-38.1" width="0.1524" layer="91"/>
+<label x="-63.5" y="-38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="JOYR" class="0">
+<segment>
+<pinref part="JP15" gate="G$1" pin="RIGHT"/>
+<wire x1="-17.78" y1="-129.54" x2="-5.08" y2="-129.54" width="0.1524" layer="91"/>
+<label x="-12.7" y="-129.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC1" gate="M" pin="PM4"/>
+<wire x1="-58.42" y1="-35.56" x2="-66.04" y2="-35.56" width="0.1524" layer="91"/>
+<label x="-63.5" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
