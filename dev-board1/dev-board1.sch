@@ -20112,9 +20112,9 @@ Switch</text>
 <label x="-48.26" y="-132.08" size="1.778" layer="95" rot="MR0"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="M" pin="PM6"/>
-<wire x1="-66.04" y1="-40.64" x2="-58.42" y2="-40.64" width="0.1524" layer="91"/>
-<label x="-63.5" y="-40.64" size="1.778" layer="95"/>
+<pinref part="IC1" gate="N" pin="PN0"/>
+<wire x1="-66.04" y1="-55.88" x2="-60.96" y2="-55.88" width="0.1524" layer="91"/>
+<label x="-63.5" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JOYC" class="0">
@@ -20127,11 +20127,6 @@ Switch</text>
 <pinref part="IC1" gate="P" pin="PP0"/>
 <wire x1="-38.1" y1="-25.4" x2="-33.02" y2="-25.4" width="0.1524" layer="91"/>
 <label x="-35.56" y="-25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="N" pin="PN0"/>
-<wire x1="-66.04" y1="-55.88" x2="-60.96" y2="-55.88" width="0.1524" layer="91"/>
-<label x="-63.5" y="-55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="JOYL" class="0">
