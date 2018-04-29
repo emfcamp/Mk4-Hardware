@@ -14164,8 +14164,6 @@ Based on the following sources:
 <part name="TP2" library="Testpoint" deviceset="TP" device=""/>
 <part name="TP3" library="Testpoint" deviceset="TP" device=""/>
 <part name="TP4" library="Testpoint" deviceset="TP" device=""/>
-<part name="TP5" library="Testpoint" deviceset="TP" device=""/>
-<part name="TP6" library="Testpoint" deviceset="TP" device=""/>
 <part name="TP7" library="Testpoint" deviceset="TP" device=""/>
 <part name="TP8" library="Testpoint" deviceset="TP" device=""/>
 <part name="R35" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="1k"/>
@@ -14229,6 +14227,8 @@ Based on the following sources:
 <part name="C53" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="100n"/>
 <part name="TP15" library="Testpoint" deviceset="TP" device=""/>
 <part name="R45" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="10k"/>
+<part name="TP14" library="Testpoint" deviceset="TP" device=""/>
+<part name="JP18" library="TiLDA Mk4 Parts" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -14556,8 +14556,6 @@ Switch</text>
 <instance part="TP2" gate="G$1" x="93.98" y="-73.66"/>
 <instance part="TP3" gate="G$1" x="86.36" y="81.28" rot="R180"/>
 <instance part="TP4" gate="G$1" x="76.2" y="104.14"/>
-<instance part="TP5" gate="G$1" x="251.46" y="93.98"/>
-<instance part="TP6" gate="G$1" x="251.46" y="91.44" rot="R180"/>
 <instance part="TP7" gate="G$1" x="-198.12" y="104.14" rot="R90"/>
 <instance part="TP8" gate="G$1" x="-134.62" y="294.64" rot="R180"/>
 <instance part="R35" gate="G$1" x="50.8" y="93.98" rot="R180"/>
@@ -14626,6 +14624,8 @@ Switch</text>
 <instance part="C53" gate="G$1" x="256.54" y="256.54" rot="R180"/>
 <instance part="TP15" gate="G$1" x="241.3" y="228.6"/>
 <instance part="R45" gate="G$1" x="-396.24" y="-147.32" rot="R90"/>
+<instance part="TP14" gate="G$1" x="287.02" y="68.58"/>
+<instance part="JP18" gate="G$1" x="264.16" y="93.98" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -16303,14 +16303,12 @@ Switch</text>
 <wire x1="220.98" y1="93.98" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
 <junction x="226.06" y="93.98"/>
 <wire x1="226.06" y1="93.98" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="TP5" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="71.12" x2="243.84" y2="93.98" width="0.1524" layer="91"/>
 <junction x="243.84" y="93.98"/>
-<wire x1="243.84" y1="93.98" x2="251.46" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="93.98" x2="256.54" y2="93.98" width="0.1524" layer="91"/>
-<junction x="251.46" y="93.98"/>
+<wire x1="243.84" y1="93.98" x2="256.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R49" gate="G$1" pin="P$1"/>
 <wire x1="243.84" y1="71.12" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$41" class="0">
@@ -16328,17 +16326,15 @@ Switch</text>
 <pinref part="C28" gate="G$1" pin="2"/>
 <junction x="220.98" y="86.36"/>
 <wire x1="220.98" y1="86.36" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="91.44" x2="251.46" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="251.46" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="91.44" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="91.44" x2="233.68" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="86.36" x2="226.06" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="TP6" gate="G$1" pin="P$1"/>
-<junction x="251.46" y="91.44"/>
 <wire x1="241.3" y1="66.04" x2="241.3" y2="91.44" width="0.1524" layer="91"/>
 <junction x="241.3" y="91.44"/>
 <pinref part="R46" gate="G$1" pin="P$1"/>
 <wire x1="248.92" y1="71.12" x2="241.3" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="JP18" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -17876,6 +17872,7 @@ Switch</text>
 <wire x1="287.02" y1="58.42" x2="281.94" y2="58.42" width="0.1524" layer="91"/>
 <junction x="287.02" y="68.58"/>
 <label x="287.02" y="68.58" size="1.778" layer="95"/>
+<pinref part="TP14" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 </nets>
