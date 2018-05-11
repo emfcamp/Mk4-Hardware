@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2148,6 +2148,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="IC2" library="memory-micron" package="TSOP54-400" value="MT48LC16M16A2" x="87.6808" y="47.244" smashed="yes" rot="R180">
+<attribute name="FARNELL" value="2253738" x="87.6808" y="47.244" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MF" value="" x="38.1508" y="137.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="38.1508" y="137.414" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="76.4438" y="45.82925" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
@@ -2188,25 +2189,30 @@ design rules under a new name.</description>
 <attribute name="NAME" x="68.034784375" y="74.6246" size="0.8128" layer="25" font="vector" ratio="13"/>
 </element>
 <element name="S1" library="Switches" package="6MMTACTSM" value="" x="72.3392" y="73.3552" smashed="yes" rot="MR90">
+<attribute name="FARNELL" value="2320087" x="72.3392" y="73.3552" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="67.2592" y="70.8152" size="1.27" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="R3" library="passives-7351" package="R0603-N" value="4.87k" x="66.04" y="51.9684" smashed="yes" rot="R180">
+<attribute name="FARNELL" value="2447387" x="66.04" y="51.9684" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="65.291584375" y="50.2286" size="0.8128" layer="25" font="vector" ratio="13"/>
 </element>
 <element name="R4" library="passives-7351" package="R0603-N" value="10k" x="65.8876" y="78.0796" smashed="yes">
 <attribute name="NAME" x="65.342384375" y="79.0454" size="0.8128" layer="25" font="vector" ratio="13"/>
 </element>
 <element name="S2" library="Switches" package="6MMTACTSM" value="" x="65.8368" y="73.3552" smashed="yes" rot="MR90">
+<attribute name="FARNELL" value="2320087" x="65.8368" y="73.3552" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VALUE" x="60.7568" y="70.8152" size="1.27" layer="28" font="vector" ratio="12" rot="MR90"/>
 </element>
 <element name="C9" library="passives-7351" package="C0603-N" value="100n" x="65.8876" y="76.5048" smashed="yes">
 <attribute name="NAME" x="64.986784375" y="74.7782" size="0.8128" layer="25" font="vector" ratio="13"/>
 </element>
 <element name="X1" library="TiLDA Mk4 Parts" package="RESONATOR_EPSON_FC_145" value="" x="67.2592" y="56.4896" smashed="yes" rot="R90">
+<attribute name="FARNELL" value="2723239" x="67.2592" y="56.4896" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="69.3022" y="55.929365625" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="68.831459375" y="54.27218125" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="Y1" library="SparkFun-FreqCtrl" package="CRYSTAL-SMD-5X3" value="" x="52.1716" y="63.1444" smashed="yes">
+<attribute name="FARNELL" value="2508925" x="52.1716" y="63.1444" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.505" y="62.791828125" size="0.4064" layer="25" rot="R90"/>
 <attribute name="PROD_ID" value="XTAL-08218" x="114.4016" y="-37.1856" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="49.6316" y="60.6044" size="0.4064" layer="27"/>
@@ -2248,10 +2254,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="3.0048" y="51.2996" size="0.8128" layer="25" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="U1" library="TiLDA Mk4 Parts" package="USB-AB-MICRO-SMD_LWK" value="" x="24.8412" y="77.8764" smashed="yes" rot="R270">
+<attribute name="FARNELL" value="2293755" x="24.8412" y="77.8764" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="19.6126" y="77.242053125" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="30.3022" y="79.1464" size="0.4064" layer="27" rot="R270"/>
 </element>
 <element name="U2" library="TiLDA Mk4 Parts" package="USB-AB-MICRO-SMD_LWK" value="" x="57.3532" y="78.0796" smashed="yes" rot="R270">
+<attribute name="FARNELL" value="2293755" x="57.3532" y="78.0796" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="51.8922" y="77.5208" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="62.8142" y="79.3496" size="0.4064" layer="27" rot="R270"/>
 </element>
@@ -2265,10 +2273,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="58.585" y="66.764784375" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
 <element name="L1" library="TiLDA Mk4 Parts" package="WUERTH-0805" value="" x="21.1836" y="70.5104" smashed="yes" rot="R180">
+<attribute name="FARNELL" value="1781089" x="21.1836" y="70.5104" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.692678125" y="68.9106" size="0.8128" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="23.0886" y="69.5579" size="0.6096" layer="27" rot="R180"/>
 </element>
 <element name="L2" library="TiLDA Mk4 Parts" package="WUERTH-0805" value="" x="53.3908" y="69.4944" smashed="yes">
+<attribute name="FARNELL" value="1781089" x="53.3908" y="69.4944" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="52.899878125" y="70.2814" size="0.8128" layer="25" font="vector" ratio="13"/>
 <attribute name="VALUE" x="51.4858" y="70.4469" size="0.6096" layer="27"/>
 </element>
@@ -2288,6 +2298,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="91.5156" y="71.12" size="0.8128" layer="26" font="vector" ratio="13" rot="MR0"/>
 </element>
 <element name="J2" library="TiLDA Mk4 Parts" package="MSIM-MOLEX" value="SIM-78723-1001" x="3.302" y="45.6184" smashed="yes" rot="MR0">
+<attribute name="FARNELL" value="2213306" x="3.302" y="45.6184" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="NAME" x="16.702" y="52.5184" size="1.016" layer="26" font="vector" ratio="15" rot="MR0"/>
 </element>
 <element name="R10" library="passives-7351" package="R0603-N" value="51" x="19.7104" y="47.5488" smashed="yes">
@@ -2325,9 +2336,11 @@ design rules under a new name.</description>
 </element>
 <element name="ANT1" library="TiLDA Mk4 Parts" package="2450AT42A100" value="CHIPANT" x="31.75" y="-18.6284" smashed="yes" rot="R180"/>
 <element name="C31" library="TiLDA Mk4 Parts" package="C1210" value="100u" x="59.69" y="-11.9228" smashed="yes" rot="R90">
+<attribute name="FARNELL" value="1889302" x="59.69" y="-11.9228" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.634925" y="-15.3934" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="C32" library="TiLDA Mk4 Parts" package="C1210" value="100u" x="55.8292" y="-11.9228" smashed="yes" rot="R90">
+<attribute name="FARNELL" value="1889302" x="55.8292" y="-11.9228" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="54.774125" y="-15.3934" size="0.8128" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="U3" library="TiLDA Mk4 Parts" package="ER-TFT024-3" value="ER-TFT024-3-OUTLINE" x="100.33" y="-3" smashed="yes" rot="MR0"/>
@@ -2356,8 +2369,12 @@ design rules under a new name.</description>
 <attribute name="NAME" x="40.0496" y="36.64" size="1.016" layer="26" font="vector" ratio="14" rot="MR270"/>
 <attribute name="VALUE" x="39.8912" y="33.96" size="0.6096" layer="28" rot="MR0"/>
 </element>
-<element name="LED1" library="TiLDA Mk4 Parts" package="LED-0603" value="green" x="46.5328" y="57.912" smashed="yes" rot="MR180"/>
-<element name="LED2" library="TiLDA Mk4 Parts" package="LED-0603" value="red" x="44.7548" y="57.912" smashed="yes" rot="MR180"/>
+<element name="LED1" library="TiLDA Mk4 Parts" package="LED-0603" value="green" x="46.5328" y="57.912" smashed="yes" rot="MR180">
+<attribute name="FARNELL" value="2426215" x="46.5328" y="57.912" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="LED2" library="TiLDA Mk4 Parts" package="LED-0603" value="red" x="44.7548" y="57.912" smashed="yes" rot="MR180">
+<attribute name="FARNELL" value="2449874" x="44.7548" y="57.912" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="R21" library="passives-7351" package="R0603-N" value="4k7" x="46.3296" y="57.912" smashed="yes" rot="R270">
 <attribute name="NAME" x="46.736" y="59.462" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
@@ -2403,6 +2420,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="3.368" y="-9.6012" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="L3" library="TiLDA Mk4 Parts" package="1008" value="" x="11.3792" y="-1.5088" smashed="yes" rot="R270">
+<attribute name="FARNELL" value="2428202" x="11.3792" y="-1.5088" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="13.6264" y="-1.6096" size="0.8128" layer="25" font="vector" ratio="14" rot="R90"/>
 <attribute name="VALUE" x="10.3792" y="-3.6088" size="0.4064" layer="27"/>
 </element>
@@ -2439,6 +2457,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.3838" y="0.0864" size="0.8128" layer="25" font="vector" ratio="13" rot="R180"/>
 </element>
 <element name="S3" library="Switches" package="6MMTACTSM" value="" x="29.2608" y="-7.4016" smashed="yes" rot="MR180">
+<attribute name="FARNELL" value="2320087" x="29.2608" y="-7.4016" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="26.7208" y="-2.3216" size="1.27" layer="28" font="vector" ratio="12" rot="MR180"/>
 </element>
 <element name="R23" library="passives-7351" package="R0603-N" value="2k" x="2.2352" y="3.7744" smashed="yes" rot="R90">
@@ -2453,7 +2472,9 @@ design rules under a new name.</description>
 <element name="R26" library="passives-7351" package="R0603-N" value="4.7k" x="10.7696" y="11.3944" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.176" y="13.1476" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
-<element name="LED3" library="TiLDA Mk4 Parts" package="LED-0603" value="red" x="12.4968" y="11.496" smashed="yes" rot="R180"/>
+<element name="LED3" library="TiLDA Mk4 Parts" package="LED-0603" value="red" x="12.4968" y="11.496" smashed="yes" rot="R180">
+<attribute name="FARNELL" value="2449874" x="12.4968" y="11.496" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="R27" library="passives-7351" package="R0603-N" value="10k" x="3.4544" y="8.6512" smashed="yes" rot="R270">
 <attribute name="NAME" x="5.1942" y="7.528578125" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
@@ -2468,6 +2489,7 @@ design rules under a new name.</description>
 <attribute name="FARNELL" value="2501103" x="10.5664" y="-11.0592" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$1" library="SparkFun-Sensors" package="MIC-9.7MM" value="MIC9.7MM" x="6.2992" y="33.1216" smashed="yes" rot="MR180">
+<attribute name="FARNELL" value="2396073" x="6.2992" y="33.1216" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="PROD_ID" value="COMP-08856" x="6.2992" y="33.1216" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C48" library="passives-7351" package="C0603-N" value="10p" x="3.2512" y="75.5904" smashed="yes" rot="R180">
@@ -2480,9 +2502,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="2.524678125" y="69.02130625" size="0.8128" layer="25" font="vector" ratio="13" rot="R270"/>
 </element>
 <element name="C51" library="TiLDA Mk4 Parts" package="C1210" value="100u" x="3.6576" y="71.12" smashed="yes">
+<attribute name="FARNELL" value="1889302" x="3.6576" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="6.0798" y="71.768675" size="0.8128" layer="25" font="vector" ratio="14" rot="R270"/>
 </element>
 <element name="Q2" library="TiLDA Mk4 Parts" package="SOT23-3" value="" x="65.8368" y="29.3088" smashed="yes">
+<attribute name="FARNELL" value="2724398" x="65.8368" y="29.3088" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="65.0113" y="31.0868" size="0.8128" layer="25" font="vector" ratio="14"/>
 <attribute name="VALUE" x="64.8208" y="29.1183" size="0.4064" layer="27"/>
 </element>
@@ -2491,6 +2515,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="31.9024" y="41.4401" size="0.4064" layer="27" rot="R180"/>
 </element>
 <element name="S4" library="Switches" package="6MMTACTSM" value="" x="22.352" y="44.9072" smashed="yes" rot="MR270">
+<attribute name="FARNELL" value="2320087" x="22.352" y="44.9072" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="27.432" y="47.4472" size="1.27" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="Q4" library="TiLDA Mk4 Parts" package="SOT23-3" value="" x="12.8016" y="39.0144" smashed="yes" rot="R270">
@@ -2500,7 +2525,9 @@ design rules under a new name.</description>
 <element name="R29" library="passives-7351" package="R0603-N" value="10k" x="24.5872" y="41.2496" smashed="yes" rot="R180">
 <attribute name="NAME" x="23.464578125" y="42.1766" size="0.8128" layer="25" font="vector" ratio="13"/>
 </element>
-<element name="LED4" library="TiLDA Mk4 Parts" package="LED-0603" value="red" x="16.0528" y="39.2176" smashed="yes"/>
+<element name="LED4" library="TiLDA Mk4 Parts" package="LED-0603" value="red" x="16.0528" y="39.2176" smashed="yes">
+<attribute name="FARNELL" value="2449874" x="16.0528" y="39.2176" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R30" library="passives-7351" package="R0603-N" value="2k" x="13.208" y="36.3728" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.085378125" y="34.633" size="0.8128" layer="25" font="vector" ratio="13"/>
 </element>
@@ -2514,6 +2541,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="14.1478" y="-4.506" size="1.27" layer="28" rot="MR270"/>
 </element>
 <element name="J1" library="TiLDA Mk4 Parts" package="RJMG163118101NR" value="MAGJACK-RJMG16XXX-8" x="79.8576" y="69.6976" smashed="yes" rot="R90">
+<attribute name="FARNELL" value="1357436" x="79.8576" y="69.6976" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="75.8576" y="61.2976" size="1.016" layer="25" font="vector" ratio="14" rot="R90"/>
 </element>
 <element name="R31" library="passives-7351" package="R0603-N" value="dnp" x="4.1656" y="25.4" smashed="yes" rot="R270">
@@ -2538,6 +2566,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="10.4774" y="30.576578125" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
 <element name="S6" library="Switches" package="6MMTACTSM" value="" x="82.992" y="-11.3792" smashed="yes" rot="MR270">
+<attribute name="FARNELL" value="2320087" x="82.992" y="-11.3792" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="VALUE" x="88.072" y="-8.8392" size="1.27" layer="28" font="vector" ratio="12" rot="MR270"/>
 </element>
 <element name="R14" library="passives-7351" package="R0603-N" value="470" x="74.3712" y="76.6064" smashed="yes" rot="R90">
@@ -2547,6 +2576,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="73.4442" y="64.917378125" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
 <element name="LED5" library="TiLDA Mk4 Parts" package="LED-0603" value="red" x="70.5104" y="49.3776" smashed="yes" rot="MR270">
+<attribute name="FARNELL" value="2449874" x="70.5104" y="49.3776" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="69.1572" y="49.1744" size="0.8128" layer="26" font="vector" ratio="14" rot="MR0"/>
 </element>
 <element name="R34" library="passives-7351" package="R0603-N" value="2k" x="70.5104" y="49.3776" smashed="yes" rot="R180">
@@ -2615,10 +2645,10 @@ design rules under a new name.</description>
 <element name="TP12" library="Testpoint" package="TP" value="TP" x="16.0528" y="55.0672" smashed="yes" rot="R90"/>
 <element name="TP13" library="Testpoint" package="TP" value="TP" x="14.4272" y="55.0672" smashed="yes" rot="R90"/>
 <element name="JP15" library="TiLDA Mk4 Parts" package="JOYSTICK_MULTICOMP_NOSILK" value="JOYSTICK_MINI_MULTICOM_NOSILK" x="49.9872" y="49.1744" smashed="yes" rot="MR45"/>
-<element name="R43" library="passives-7351" package="R0603-N" value="5.6k" x="13.208" y="7.0256" smashed="yes" rot="R270">
+<element name="R43" library="passives-7351" package="R0603-N" value="4.7k" x="13.208" y="7.0256" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.137721875" y="8.68749375" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
-<element name="R44" library="passives-7351" package="R0603-N" value="5.6k" x="14.8336" y="7.0256" smashed="yes" rot="R270">
+<element name="R44" library="passives-7351" package="R0603-N" value="4.7k" x="14.8336" y="7.0256" smashed="yes" rot="R270">
 <attribute name="NAME" x="15.24" y="8.7788" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
 <element name="JP16" library="TiLDA Mk4 Parts" package="1X07" value="" x="39.8336" y="20.8048" smashed="yes" rot="MR180">
@@ -2670,6 +2700,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.304" y="17.947153125" size="0.8128" layer="25" font="vector" ratio="13" rot="R90"/>
 </element>
 <element name="IC11" library="40xx" library_urn="urn:adsk.eagle:library:80" package="SO14" package3d_urn="urn:adsk.eagle:package:823/2" value="4066D" x="16.0528" y="30.0736" smashed="yes" rot="R90">
+<attribute name="FARNELL" value="1201330" x="16.0528" y="30.0736" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.77828125" y="24.384" size="1.016" layer="25" font="vector" ratio="14"/>
 </element>
 <element name="C63" library="passives-7351" package="C0603-N" value="33p" x="7.112" y="34.7472" smashed="yes" rot="R270">

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13912,7 +13912,9 @@ Based on the following sources:
 </class>
 </classes>
 <parts>
-<part name="IC2" library="memory-micron" deviceset="MT48LC16M16A2" device=""/>
+<part name="IC2" library="memory-micron" deviceset="MT48LC16M16A2" device="">
+<attribute name="FARNELL" value="2253738"/>
+</part>
 <part name="IC1" library="TiLDA Mk4 Parts" deviceset="MSP432E401" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -13931,17 +13933,27 @@ Based on the following sources:
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="1M"/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="S1" library="Switches" deviceset="6MMTACTSM" device="SM"/>
+<part name="S1" library="Switches" deviceset="6MMTACTSM" device="SM">
+<attribute name="FARNELL" value="2320087"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="4.87k"/>
+<part name="R3" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="4.87k">
+<attribute name="FARNELL" value="2447387"/>
+</part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="R4" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="10k"/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="S2" library="Switches" deviceset="6MMTACTSM" device="SM"/>
+<part name="S2" library="Switches" deviceset="6MMTACTSM" device="SM">
+<attribute name="FARNELL" value="2320087"/>
+</part>
 <part name="C9" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="100n"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
-<part name="X1" library="TiLDA Mk4 Parts" deviceset="RESONATOR_EPSON_FC_145" device=""/>
-<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3"/>
+<part name="X1" library="TiLDA Mk4 Parts" deviceset="RESONATOR_EPSON_FC_145" device="">
+<attribute name="FARNELL" value="2723239"/>
+</part>
+<part name="Y1" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="5X3">
+<attribute name="FARNELL" value="2508925"/>
+</part>
 <part name="R5" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="2k"/>
 <part name="C10" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="12p"/>
 <part name="C11" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="12p"/>
@@ -13962,15 +13974,23 @@ Based on the following sources:
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="IC3" library="TiLDA Mk4 Parts" deviceset="SIM800C" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="U1" library="TiLDA Mk4 Parts" deviceset="USB-AB" device="-LWK"/>
-<part name="U2" library="TiLDA Mk4 Parts" deviceset="USB-AB" device="-LWK"/>
+<part name="U1" library="TiLDA Mk4 Parts" deviceset="USB-AB" device="-LWK">
+<attribute name="FARNELL" value="2293755"/>
+</part>
+<part name="U2" library="TiLDA Mk4 Parts" deviceset="USB-AB" device="-LWK">
+<attribute name="FARNELL" value="2293755"/>
+</part>
 <part name="R6" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="22"/>
 <part name="R7" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="22"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="R8" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="10k"/>
-<part name="L1" library="TiLDA Mk4 Parts" deviceset="WE-CBF" device="_0805"/>
-<part name="L2" library="TiLDA Mk4 Parts" deviceset="WE-CBF" device="_0805"/>
+<part name="L1" library="TiLDA Mk4 Parts" deviceset="WE-CBF" device="_0805">
+<attribute name="FARNELL" value="1781089"/>
+</part>
+<part name="L2" library="TiLDA Mk4 Parts" deviceset="WE-CBF" device="_0805">
+<attribute name="FARNELL" value="1781089"/>
+</part>
 <part name="C20" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="1u"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
@@ -13981,7 +14001,9 @@ Based on the following sources:
 <part name="R9" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="1M"/>
 <part name="C23" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="1n"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="TiLDA Mk4 Parts" deviceset="SIM-78723-1001" device=""/>
+<part name="J2" library="TiLDA Mk4 Parts" deviceset="SIM-78723-1001" device="">
+<attribute name="FARNELL" value="2213306"/>
+</part>
 <part name="R10" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="51"/>
 <part name="R11" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="51"/>
 <part name="R12" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="51"/>
@@ -14001,8 +14023,12 @@ Based on the following sources:
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
 <part name="ANT1" library="TiLDA Mk4 Parts" deviceset="CHIPANT" device=""/>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
-<part name="C31" library="TiLDA Mk4 Parts" deviceset="C-EU" device="C1210" value="100u"/>
-<part name="C32" library="TiLDA Mk4 Parts" deviceset="C-EU" device="C1210" value="100u"/>
+<part name="C31" library="TiLDA Mk4 Parts" deviceset="C-EU" device="C1210" value="100u">
+<attribute name="FARNELL" value="1889302"/>
+</part>
+<part name="C32" library="TiLDA Mk4 Parts" deviceset="C-EU" device="C1210" value="100u">
+<attribute name="FARNELL" value="1889302"/>
+</part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
 <part name="J3" library="TiLDA Mk4 Parts" deviceset="ER-TFT024-3" device=""/>
@@ -14023,8 +14049,12 @@ Based on the following sources:
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="TiLDA Mk4 Parts" deviceset="WS2812B" device=""/>
-<part name="LED1" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="green"/>
-<part name="LED2" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red"/>
+<part name="LED1" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="green">
+<attribute name="FARNELL" value="2426215"/>
+</part>
+<part name="LED2" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red">
+<attribute name="FARNELL" value="2449874"/>
+</part>
 <part name="R21" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="4k7"/>
 <part name="R22" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="2k"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
@@ -14060,7 +14090,9 @@ Based on the following sources:
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="TiLDA Mk4 Parts" deviceset="M02" device="-JST-2MM-SMT"/>
 <part name="GND53" library="supply1" deviceset="GND" device=""/>
-<part name="L3" library="TiLDA Mk4 Parts" deviceset="INDUCTOR" device="1008"/>
+<part name="L3" library="TiLDA Mk4 Parts" deviceset="INDUCTOR" device="1008">
+<attribute name="FARNELL" value="2428202"/>
+</part>
 <part name="C40" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="47n"/>
 <part name="C41" library="passives-7351" deviceset="CAPACITOR" device="0805-N" value="10u"/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
@@ -14084,7 +14116,9 @@ Based on the following sources:
 </part>
 <part name="C47" library="TiLDA Mk3 Parts" deviceset="C-EU" device="C0805-N" value="0805/10u/10V/X5R"/>
 <part name="GND58" library="TiLDA Mk3 Parts" deviceset="GND" device=""/>
-<part name="S3" library="Switches" deviceset="6MMTACTSM" device="SM"/>
+<part name="S3" library="Switches" deviceset="6MMTACTSM" device="SM">
+<attribute name="FARNELL" value="2320087"/>
+</part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="2k"/>
 <part name="GND60" library="supply1" deviceset="GND" device=""/>
@@ -14092,7 +14126,9 @@ Based on the following sources:
 <part name="R25" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="2k"/>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="R26" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="4.7k"/>
-<part name="LED3" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red"/>
+<part name="LED3" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red">
+<attribute name="FARNELL" value="2449874"/>
+</part>
 <part name="R27" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="10k"/>
 <part name="R28" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="10k"/>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
@@ -14103,28 +14139,40 @@ Based on the following sources:
 <attribute name="FARNELL" value="2501103"/>
 </part>
 <part name="GND107" library="TiLDA Mk3 Parts" deviceset="GND" device=""/>
-<part name="U$1" library="SparkFun-Sensors" deviceset="MIC" device="9.7MM"/>
+<part name="U$1" library="SparkFun-Sensors" deviceset="MIC" device="9.7MM">
+<attribute name="FARNELL" value="2396073"/>
+</part>
 <part name="C48" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="10p"/>
 <part name="C49" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="33p"/>
 <part name="C50" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="4.7u"/>
-<part name="C51" library="TiLDA Mk4 Parts" deviceset="C-EU" device="C1210" value="100u"/>
+<part name="C51" library="TiLDA Mk4 Parts" deviceset="C-EU" device="C1210" value="100u">
+<attribute name="FARNELL" value="1889302"/>
+</part>
 <part name="GND63" library="supply1" deviceset="GND" device=""/>
-<part name="Q2" library="TiLDA Mk4 Parts" deviceset="MOSFET-N" device="-SOT23-SPARK"/>
+<part name="Q2" library="TiLDA Mk4 Parts" deviceset="MOSFET-N" device="-SOT23-SPARK">
+<attribute name="FARNELL" value="2724398"/>
+</part>
 <part name="GND64" library="supply1" deviceset="GND" device=""/>
 <part name="Q3" library="TiLDA Mk4 Parts" deviceset="MOSFET-N" device="-SOT23-SPARK"/>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
-<part name="S4" library="Switches" deviceset="6MMTACTSM" device="SM"/>
+<part name="S4" library="Switches" deviceset="6MMTACTSM" device="SM">
+<attribute name="FARNELL" value="2320087"/>
+</part>
 <part name="Q4" library="TiLDA Mk4 Parts" deviceset="MOSFET-N" device="-SOT23-SPARK"/>
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="R29" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="10k"/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
-<part name="LED4" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red"/>
+<part name="LED4" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red">
+<attribute name="FARNELL" value="2449874"/>
+</part>
 <part name="R30" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="2k"/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
 <part name="JP3" library="TiLDA Mk4 Parts" deviceset="M02" device="PTH"/>
 <part name="JP4" library="TiLDA Mk4 Parts" deviceset="M02" device="PTH"/>
 <part name="JP5" library="TiLDA Mk4 Parts" deviceset="M02" device="PTH"/>
-<part name="J1" library="TiLDA Mk4 Parts" deviceset="MAGJACK-RJMG16XXX" device="-8"/>
+<part name="J1" library="TiLDA Mk4 Parts" deviceset="MAGJACK-RJMG16XXX" device="-8">
+<attribute name="FARNELL" value="1357436"/>
+</part>
 <part name="R31" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="dnp"/>
 <part name="R32" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="dnp"/>
 <part name="R33" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="dnp"/>
@@ -14135,13 +14183,17 @@ Based on the following sources:
 <part name="C55" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="33p"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="S6" library="Switches" deviceset="6MMTACTSM" device="SM"/>
+<part name="S6" library="Switches" deviceset="6MMTACTSM" device="SM">
+<attribute name="FARNELL" value="2320087"/>
+</part>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="R14" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="470"/>
 <part name="R16" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="470"/>
 <part name="GND71" library="supply1" deviceset="GND" device=""/>
-<part name="LED5" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red"/>
+<part name="LED5" library="TiLDA Mk4 Parts" deviceset="LED" device="0603" value="red">
+<attribute name="FARNELL" value="2449874"/>
+</part>
 <part name="GND72" library="supply1" deviceset="GND" device=""/>
 <part name="R34" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="2k"/>
 <part name="JP7" library="TiLDA Mk4 Parts" deviceset="M07" device=""/>
@@ -14182,8 +14234,8 @@ Based on the following sources:
 <part name="TP12" library="Testpoint" deviceset="TP" device=""/>
 <part name="TP13" library="Testpoint" deviceset="TP" device=""/>
 <part name="JP15" library="TiLDA Mk4 Parts" deviceset="JOYSTICK_MINI" device="_MULTICOM_NOSILK"/>
-<part name="R43" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="5.6k"/>
-<part name="R44" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="5.6k"/>
+<part name="R43" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="4.7k"/>
+<part name="R44" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="4.7k"/>
 <part name="+3V18" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND80" library="supply1" deviceset="GND" device=""/>
@@ -14211,7 +14263,9 @@ Based on the following sources:
 <part name="R53" library="passives-7351" deviceset="RESISTOR" device="0603-N" value="10k"/>
 <part name="C61" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="100n"/>
 <part name="C62" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="dnp"/>
-<part name="IC11" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4066" device="D" package3d_urn="urn:adsk.eagle:package:823/2"/>
+<part name="IC11" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4066" device="D" package3d_urn="urn:adsk.eagle:package:823/2">
+<attribute name="FARNELL" value="1201330"/>
+</part>
 <part name="C63" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="33p"/>
 <part name="C64" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="10p"/>
 <part name="C65" library="passives-7351" deviceset="CAPACITOR" device="0603-N" value="10p"/>
@@ -14272,7 +14326,9 @@ Switch</text>
 <text x="264.16" y="205.74" size="1.778" layer="91">connect</text>
 </plain>
 <instances>
-<instance part="IC2" gate="G$1" x="121.92" y="182.88"/>
+<instance part="IC2" gate="G$1" x="121.92" y="182.88">
+<attribute name="FARNELL" x="121.92" y="182.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC2" gate="P" x="119.38" y="248.92"/>
 <instance part="IC1" gate="A" x="-193.04" y="-35.56"/>
 <instance part="IC1" gate="B" x="-193.04" y="-60.96"/>
@@ -14306,17 +14362,27 @@ Switch</text>
 <instance part="+3V3" gate="G$1" x="-162.56" y="60.96" rot="R270"/>
 <instance part="R2" gate="G$1" x="-223.52" y="119.38" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="-223.52" y="127"/>
-<instance part="S1" gate="G$1" x="-223.52" y="93.98"/>
+<instance part="S1" gate="G$1" x="-223.52" y="93.98">
+<attribute name="FARNELL" x="-223.52" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="-223.52" y="83.82"/>
-<instance part="R3" gate="G$1" x="-203.2" y="88.9" rot="R90"/>
+<instance part="R3" gate="G$1" x="-203.2" y="88.9" rot="R90">
+<attribute name="FARNELL" x="-203.2" y="88.9" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="GND5" gate="1" x="-203.2" y="81.28"/>
 <instance part="R4" gate="G$1" x="-236.22" y="119.38" rot="R90"/>
 <instance part="+3V5" gate="G$1" x="-236.22" y="127"/>
-<instance part="S2" gate="G$1" x="-246.38" y="93.98"/>
+<instance part="S2" gate="G$1" x="-246.38" y="93.98">
+<attribute name="FARNELL" x="-246.38" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="C9" gate="G$1" x="-236.22" y="93.98"/>
 <instance part="GND6" gate="1" x="-246.38" y="83.82"/>
-<instance part="X1" gate="G$1" x="-149.86" y="109.22" rot="R90"/>
-<instance part="Y1" gate="G$1" x="-147.32" y="96.52" rot="R180"/>
+<instance part="X1" gate="G$1" x="-149.86" y="109.22" rot="R90">
+<attribute name="FARNELL" x="-149.86" y="109.22" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="Y1" gate="G$1" x="-147.32" y="96.52" rot="R180">
+<attribute name="FARNELL" x="-147.32" y="96.52" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="R5" gate="G$1" x="-157.48" y="99.06" rot="R180"/>
 <instance part="C10" gate="G$1" x="-142.24" y="106.68" rot="R90"/>
 <instance part="C11" gate="G$1" x="-142.24" y="111.76" rot="R90"/>
@@ -14337,15 +14403,23 @@ Switch</text>
 <instance part="GND13" gate="1" x="78.74" y="254"/>
 <instance part="IC3" gate="G$1" x="124.46" y="68.58"/>
 <instance part="GND14" gate="1" x="124.46" y="25.4"/>
-<instance part="U1" gate="G$1" x="83.82" y="-7.62" rot="R270"/>
-<instance part="U2" gate="G$1" x="-149.86" y="-114.3" rot="R180"/>
+<instance part="U1" gate="G$1" x="83.82" y="-7.62" rot="R270">
+<attribute name="FARNELL" x="83.82" y="-7.62" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="U2" gate="G$1" x="-149.86" y="-114.3" rot="R180">
+<attribute name="FARNELL" x="-149.86" y="-114.3" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="R6" gate="G$1" x="81.28" y="30.48" rot="R90"/>
 <instance part="R7" gate="G$1" x="83.82" y="30.48" rot="R90"/>
 <instance part="GND15" gate="1" x="96.52" y="0" rot="R90"/>
 <instance part="GND16" gate="1" x="-137.16" y="-127"/>
 <instance part="R8" gate="G$1" x="-114.3" y="-116.84" rot="R180"/>
-<instance part="L1" gate="G$1" x="78.74" y="30.48" rot="R90"/>
-<instance part="L2" gate="G$1" x="-114.3" y="-109.22" rot="R180"/>
+<instance part="L1" gate="G$1" x="78.74" y="30.48" rot="R90">
+<attribute name="FARNELL" x="78.74" y="30.48" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="L2" gate="G$1" x="-114.3" y="-109.22" rot="R180">
+<attribute name="FARNELL" x="-114.3" y="-109.22" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="C20" gate="G$1" x="73.66" y="38.1" rot="R90"/>
 <instance part="GND17" gate="1" x="68.58" y="38.1" rot="R270"/>
 <instance part="+3V6" gate="G$1" x="-93.98" y="127"/>
@@ -14356,7 +14430,9 @@ Switch</text>
 <instance part="R9" gate="G$1" x="-38.1" y="73.66" rot="R270"/>
 <instance part="C23" gate="G$1" x="-43.18" y="71.12" rot="R180"/>
 <instance part="GND20" gate="1" x="-38.1" y="63.5"/>
-<instance part="J2" gate="G$1" x="220.98" y="45.72"/>
+<instance part="J2" gate="G$1" x="220.98" y="45.72">
+<attribute name="FARNELL" x="220.98" y="45.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R10" gate="G$1" x="160.02" y="50.8" rot="R180"/>
 <instance part="R11" gate="G$1" x="160.02" y="48.26" rot="R180"/>
 <instance part="R12" gate="G$1" x="160.02" y="45.72" rot="R180"/>
@@ -14376,8 +14452,12 @@ Switch</text>
 <instance part="GND26" gate="1" x="220.98" y="104.14" rot="R180"/>
 <instance part="ANT1" gate="G$1" x="162.56" y="-55.88"/>
 <instance part="GND28" gate="1" x="101.6" y="-129.54"/>
-<instance part="C31" gate="G$1" x="73.66" y="-68.58"/>
-<instance part="C32" gate="G$1" x="68.58" y="-68.58"/>
+<instance part="C31" gate="G$1" x="73.66" y="-68.58">
+<attribute name="FARNELL" x="73.66" y="-68.58" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C32" gate="G$1" x="68.58" y="-68.58">
+<attribute name="FARNELL" x="68.58" y="-68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND31" gate="1" x="68.58" y="-78.74"/>
 <instance part="+3V7" gate="G$1" x="38.1" y="-63.5" rot="R90"/>
 <instance part="J3" gate="G$1" x="-116.84" y="248.92"/>
@@ -14398,8 +14478,12 @@ Switch</text>
 <instance part="+3V10" gate="G$1" x="-144.78" y="294.64" rot="R90"/>
 <instance part="GND38" gate="1" x="-137.16" y="231.14"/>
 <instance part="D1" gate="G$1" x="-20.32" y="190.5"/>
-<instance part="LED1" gate="G$1" x="-266.7" y="-17.78"/>
-<instance part="LED2" gate="G$1" x="-259.08" y="-17.78"/>
+<instance part="LED1" gate="G$1" x="-266.7" y="-17.78">
+<attribute name="FARNELL" x="-266.7" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="LED2" gate="G$1" x="-259.08" y="-17.78">
+<attribute name="FARNELL" x="-259.08" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R21" gate="G$1" x="-266.7" y="-7.62" rot="R90"/>
 <instance part="R22" gate="G$1" x="-259.08" y="-7.62" rot="R90"/>
 <instance part="GND39" gate="1" x="-266.7" y="-27.94"/>
@@ -14435,7 +14519,9 @@ Switch</text>
 <instance part="GND52" gate="1" x="-330.2" y="-109.22"/>
 <instance part="JP2" gate="G$1" x="-287.02" y="-93.98" rot="MR0"/>
 <instance part="GND53" gate="1" x="-299.72" y="-96.52"/>
-<instance part="L3" gate="G$1" x="-294.64" y="-58.42" rot="R90"/>
+<instance part="L3" gate="G$1" x="-294.64" y="-58.42" rot="R90">
+<attribute name="FARNELL" x="-294.64" y="-58.42" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="C40" gate="G$1" x="-307.34" y="-60.96"/>
 <instance part="C41" gate="G$1" x="-281.94" y="-60.96"/>
 <instance part="GND54" gate="1" x="-281.94" y="-68.58"/>
@@ -14472,7 +14558,9 @@ Switch</text>
 <attribute name="VALUE" x="-259.461" y="-144.78" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="GND58" gate="1" x="-264.16" y="-157.48"/>
-<instance part="S3" gate="G$1" x="-375.92" y="-99.06"/>
+<instance part="S3" gate="G$1" x="-375.92" y="-99.06">
+<attribute name="FARNELL" x="-375.92" y="-99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND59" gate="1" x="-375.92" y="-109.22"/>
 <instance part="R23" gate="G$1" x="-391.16" y="-96.52" rot="R270"/>
 <instance part="GND60" gate="1" x="-391.16" y="-109.22"/>
@@ -14480,7 +14568,9 @@ Switch</text>
 <instance part="R25" gate="G$1" x="-408.94" y="-63.5" rot="R270"/>
 <instance part="GND61" gate="1" x="-408.94" y="-81.28"/>
 <instance part="R26" gate="G$1" x="-353.06" y="-99.06"/>
-<instance part="LED3" gate="G$1" x="-363.22" y="-99.06" rot="R90"/>
+<instance part="LED3" gate="G$1" x="-363.22" y="-99.06" rot="R90">
+<attribute name="FARNELL" x="-363.22" y="-99.06" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="R27" gate="G$1" x="-274.32" y="-81.28" rot="R270"/>
 <instance part="R28" gate="G$1" x="-274.32" y="-91.44" rot="R270"/>
 <instance part="GND62" gate="1" x="-274.32" y="-99.06"/>
@@ -14495,28 +14585,40 @@ Switch</text>
 <attribute name="VALUE" x="-394.208" y="-136.906" size="1.27" layer="96"/>
 </instance>
 <instance part="GND107" gate="1" x="-393.7" y="-170.18"/>
-<instance part="U$1" gate="G$1" x="335.28" y="142.24" rot="R270"/>
+<instance part="U$1" gate="G$1" x="335.28" y="142.24" rot="R270">
+<attribute name="FARNELL" x="335.28" y="142.24" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
 <instance part="C48" gate="G$1" x="132.08" y="116.84" rot="R180"/>
 <instance part="C49" gate="G$1" x="139.7" y="116.84" rot="R180"/>
 <instance part="C50" gate="G$1" x="147.32" y="116.84" rot="R180"/>
-<instance part="C51" gate="G$1" x="119.38" y="119.38"/>
+<instance part="C51" gate="G$1" x="119.38" y="119.38">
+<attribute name="FARNELL" x="119.38" y="119.38" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND63" gate="1" x="132.08" y="111.76"/>
-<instance part="Q2" gate="G$1" x="-162.56" y="299.72"/>
+<instance part="Q2" gate="G$1" x="-162.56" y="299.72">
+<attribute name="FARNELL" x="-162.56" y="299.72" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND64" gate="1" x="-160.02" y="292.1"/>
 <instance part="Q3" gate="G$1" x="63.5" y="81.28"/>
 <instance part="GND65" gate="1" x="66.04" y="73.66"/>
-<instance part="S4" gate="G$1" x="71.12" y="81.28"/>
+<instance part="S4" gate="G$1" x="71.12" y="81.28">
+<attribute name="FARNELL" x="71.12" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Q4" gate="G$1" x="68.58" y="106.68" rot="MR0"/>
 <instance part="GND67" gate="1" x="66.04" y="99.06"/>
 <instance part="R29" gate="G$1" x="76.2" y="99.06" rot="R90"/>
 <instance part="GND68" gate="1" x="76.2" y="91.44"/>
-<instance part="LED4" gate="G$1" x="66.04" y="116.84"/>
+<instance part="LED4" gate="G$1" x="66.04" y="116.84">
+<attribute name="FARNELL" x="66.04" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R30" gate="G$1" x="66.04" y="124.46" rot="R90"/>
 <instance part="+3V17" gate="G$1" x="66.04" y="132.08"/>
 <instance part="JP3" gate="G$1" x="50.8" y="-55.88" rot="R270"/>
 <instance part="JP4" gate="G$1" x="106.68" y="132.08" rot="R270"/>
 <instance part="JP5" gate="G$1" x="-256.54" y="-48.26" rot="R270"/>
-<instance part="J1" gate="G$1" x="-76.2" y="111.76"/>
+<instance part="J1" gate="G$1" x="-76.2" y="111.76">
+<attribute name="FARNELL" x="-76.2" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="R31" gate="G$1" x="104.14" y="119.38" rot="R180"/>
 <instance part="R32" gate="G$1" x="53.34" y="-68.58" rot="R180"/>
 <instance part="R33" gate="G$1" x="-256.54" y="-60.96" rot="R180"/>
@@ -14527,13 +14629,17 @@ Switch</text>
 <instance part="C55" gate="G$1" x="322.58" y="144.78" rot="R180"/>
 <instance part="GND27" gate="1" x="322.58" y="160.02" rot="R180"/>
 <instance part="GND30" gate="1" x="312.42" y="160.02" rot="R180"/>
-<instance part="S6" gate="G$1" x="91.44" y="-86.36"/>
+<instance part="S6" gate="G$1" x="91.44" y="-86.36">
+<attribute name="FARNELL" x="91.44" y="-86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND70" gate="1" x="93.98" y="-96.52"/>
 <instance part="+3V16" gate="G$1" x="-132.08" y="215.9" rot="R90"/>
 <instance part="R14" gate="G$1" x="-27.94" y="116.84" rot="R180"/>
 <instance part="R16" gate="G$1" x="-27.94" y="109.22" rot="R180"/>
 <instance part="GND71" gate="1" x="-35.56" y="101.6"/>
-<instance part="LED5" gate="G$1" x="-246.38" y="-17.78"/>
+<instance part="LED5" gate="G$1" x="-246.38" y="-17.78">
+<attribute name="FARNELL" x="-246.38" y="-17.78" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND72" gate="1" x="-246.38" y="-27.94"/>
 <instance part="R34" gate="G$1" x="-246.38" y="-7.62" rot="R90"/>
 <instance part="JP7" gate="G$1" x="187.96" y="-88.9"/>
@@ -14605,7 +14711,9 @@ Switch</text>
 <instance part="C61" gate="G$1" x="259.08" y="223.52" rot="R90"/>
 <instance part="C62" gate="G$1" x="259.08" y="213.36" rot="R90"/>
 <instance part="IC11" gate="A" x="292.1" y="208.28"/>
-<instance part="IC11" gate="B" x="292.1" y="223.52"/>
+<instance part="IC11" gate="B" x="292.1" y="223.52">
+<attribute name="FARNELL" x="292.1" y="223.52" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="IC11" gate="C" x="281.94" y="129.54"/>
 <instance part="IC11" gate="D" x="281.94" y="144.78"/>
 <instance part="IC11" gate="P" x="261.62" y="259.08"/>
