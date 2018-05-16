@@ -1,0 +1,10 @@
+DRC Rules Export File for PCB: C:\Users\a0272566\Documents\Altium\LaunchPads\msp-exp432e401y\1_PCB\MCU023_MSP-EXP432E401Y.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_Keepouts|Scope=Board|Minimum=0.00
+RuleKind=Clearance|RuleName=Clearance_Poly|Scope=Board|Minimum=12.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_via|Scope=Board|Minimum=-17.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=1.97
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing_ThermalPadVias|Scope=Board|Minimum=5.91
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=6.00

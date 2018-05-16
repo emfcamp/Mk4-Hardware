@@ -1,0 +1,28 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: MCU023_MSP-EXP432E401Y.PcbDoc   10/12/2017  3:27:46 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : MCU0231.0-RoundHoles.TXT
+ASCII SlotHoles File : MCU0231.0-SlotHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             8         PTH        3.55inch (90.10mm)
+T2      12mil (0.305mm)                                           Round             594       PTH        85.53inch (2172.45mm)
+T3      24mil (0.6mm)                                             Slot              2         PTH        0.68inch (17.23mm)
+T4      26mil (0.65mm)                                            Slot              2         PTH        0.37inch (9.30mm)
+T5      32mil (0.825mm)                                           Slot              2         PTH        0.70inch (17.73mm)
+T6      35mil (0.89mm)                                            Round             8         PTH        0.56inch (14.29mm)
+T7      40mil (1.016mm)                                           Round             52        PTH        15.22inch (386.54mm)
+T8      40mil (1.02mm)                                            Round             188       PTH        30.16inch (766.13mm)
+T9      47mil (1.2mm)                                             Round             8         PTH        0.90inch (22.86mm)
+T10     62mil (1.57mm)                                            Round             2         PTH        0.64inch (16.26mm)
+T11     128mil (3.251mm)                                          Round             2         PTH        0.50inch (12.70mm)
+T12     35mil (0.9mm)                                             Round             8         NPTH       9.79inch (248.58mm)
+T13     39mil (0.991mm)                                           Round             3         NPTH       0.38inch (9.72mm)
+T14     125mil (3.175mm)                                          Round             2         NPTH       2.30inch (58.42mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              881
+
+Total Processing Time (hh:mm:ss) : 00:00:01
