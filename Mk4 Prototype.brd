@@ -5713,6 +5713,12 @@ Metric Code Size 3225</description>
 <text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 <text x="-1.27" y="-1.905" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="BATTERY-32X50">
+<wire x1="0" y1="-17" x2="50" y2="-17" width="0.127" layer="49"/>
+<wire x1="50" y1="-17" x2="50" y2="17" width="0.127" layer="49"/>
+<wire x1="50" y1="17" x2="0" y2="17" width="0.127" layer="49"/>
+<wire x1="0" y1="17" x2="0" y2="-17" width="0.127" layer="49"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SO14" urn="urn:adsk.eagle:package:823/2" type="model">
@@ -5965,9 +5971,7 @@ design rules under a new name.</description>
 <element name="FID5" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-62" y="28" locked="yes" rot="R180">
 <attribute name="DNP" value="Y" x="-62" y="28" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="OUTLINE1" library="TiLDA Mk4 Parts" package="TILDA_MK4_OUTLINE" value="TILDA_MK3_BOARDOUTLINE-MK4" x="0" y="0" locked="yes">
-<attribute name="DNP" value="Y" x="0" y="0" size="1.778" layer="27" display="off"/>
-</element>
+<element name="PCB" library="TiLDA Mk4 Parts" package="TILDA_MK4_OUTLINE" value="TiLDA Mk4 PCB" x="0" y="0" locked="yes"/>
 <element name="IC3" library="TiLDA Mk4 Parts" package="CC3100MOD-LWK" value="CC3120MOD" x="-44.925" y="49.9" rot="MR0"/>
 <element name="R47" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="12.5" y="39" rot="MR270"/>
 <element name="R48" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="11.5" y="39" rot="MR270"/>
@@ -5977,9 +5981,7 @@ design rules under a new name.</description>
 <element name="R44" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="9.5" y="39" rot="MR270"/>
 <element name="Q8" library="TiLDA Mk4 Parts" package="Q2" value="CSD13202Q2" x="14.5" y="38.75" rot="MR270"/>
 <element name="C45" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="-8.25" y="39" rot="MR180"/>
-<element name="U2" library="TiLDA Mk4 Parts" package="ER-TFT024-3" value="ER-TFT024-3" x="0" y="33.5" locked="yes" smashed="yes">
-<attribute name="DNP" value="Y" x="0" y="33.5" size="1.778" layer="27" display="off"/>
-</element>
+<element name="LCD" library="TiLDA Mk4 Parts" package="ER-TFT024-3" value="ER-TFT024-3" x="0" y="33.5" locked="yes" smashed="yes"/>
 <element name="SW1" library="TiLDA Mk4 Parts" package="JOYSTICK_MULTICOMP_NOSILK" value="JOYSTICK" x="-39.2" y="39" locked="yes" smashed="yes" rot="R315">
 <attribute name="VALUE" x="-35.3109125" y="40.76776875" size="0.4064" layer="27" rot="R315"/>
 </element>
@@ -6034,7 +6036,7 @@ design rules under a new name.</description>
 <element name="LED2" library="TiLDA Mk4 Parts" package="WS2812B" value="WS2812B" x="7.5" y="74" locked="yes" smashed="yes">
 <attribute name="VALUE" x="11.5" y="72.4" size="0.6096" layer="27"/>
 </element>
-<element name="IC2" library="TiLDA Mk4 Parts" package="TSOP54-400" value="AS4C8M16SA-7TCN" x="-21.8" y="52.7" rot="MR270"/>
+<element name="IC2" library="TiLDA Mk4 Parts" package="TSOP54-400" value="AS4C4M16SA-7TCN" x="-21.8" y="52.7" rot="MR270"/>
 <element name="S16" library="TiLDA Mk4 Parts" package="TACTILE_SWITCH_SMD_3X6X2.5H" value="3X6X2.5" x="-30" y="68" locked="yes" smashed="yes" rot="R15">
 <attribute name="VALUE" x="-32.4906" y="66.0903125" size="0.8128" layer="27" rot="R15"/>
 </element>
@@ -6046,7 +6048,7 @@ design rules under a new name.</description>
 <attribute name="DNP" value="Y" x="-2" y="14.5" size="1.778" layer="27" display="off"/>
 </element>
 <element name="IC1" library="TiLDA Mk4 Parts" package="QFP128-0.4" value="MSP432E401" x="0" y="53" rot="MR0"/>
-<element name="JP1" library="TiLDA Mk4 Parts" package="JST-2-SMD" value="S2B-PH-SM4-TB(LF)(SN)" x="28.8" y="15.8" rot="MR90"/>
+<element name="J5" library="TiLDA Mk4 Parts" package="JST-2-SMD" value="S2B-PH-SM4-TB(LF)(SN)" x="28.8" y="15.8" rot="MR90"/>
 <element name="IC5" library="TiLDA Mk4 Parts" package="SIM800C" value="SIM800C" x="40.5" y="41" rot="MR180"/>
 <element name="ARTWORK1" library="TiLDA Mk4 Parts" package="TILDA_ARTWORK_JOYSTICK" value="ARTWORK_JOYSTICK" x="-39.2" y="39" locked="yes">
 <attribute name="DNP" value="Y" x="-39.2" y="39" size="1.778" layer="27" display="off"/>
@@ -6065,14 +6067,14 @@ design rules under a new name.</description>
 <attribute name="DNP" value="Y" x="-2.54" y="75.4" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="IC4" library="TiLDA Mk4 Parts" package="QFN28-ML_6X6MM" value="MCP23017ML" x="17.5" y="27" rot="MR0"/>
-<element name="IC6" library="TiLDA Mk4 Parts" package="SO08-EIAJ" value="SST26VF064B-104I/SM" x="13.2" y="43.15" rot="MR270"/>
+<element name="IC6" library="TiLDA Mk4 Parts" package="SO08-EIAJ" value="SST26VF016B-104I/SM" x="13.2" y="43.15" rot="MR270"/>
 <element name="JP5" library="TiLDA Mk4 Parts" package="1X08_LOCK" value="1x08" x="18" y="75" locked="yes" rot="MR195">
 <attribute name="DNP" value="Y" x="18" y="75" size="1.778" layer="28" rot="MR195" display="off"/>
 </element>
 <element name="JP6" library="TiLDA Mk4 Parts" package="1X08_LOCK" value="1x08" x="-18" y="75" rot="MR345">
 <attribute name="DNP" value="Y" x="-18" y="75" size="1.778" layer="28" rot="MR345" display="off"/>
 </element>
-<element name="U1" library="TiLDA Mk4 Parts" package="USB-AB-MICRO-SMD_LWK" value="ZX62-AB-5PA(11)" x="10.4" y="75.5" rot="MR274"/>
+<element name="U1" library="TiLDA Mk4 Parts" package="USB-AB-MICRO-SMD_LWK" value="ZX62-B-5PA(33)" x="10.4" y="75.5" rot="MR274"/>
 <element name="J1" library="TiLDA Mk4 Parts" package="MSIM-MOLEX-LWK" value="78723-1001" x="57" y="21" rot="MR180"/>
 <element name="J4" library="TiLDA Mk4 Parts" package="GSM-ANTENNA" value="GSM-COIL-ANT" x="56.5" y="36" rot="MR0"/>
 <element name="LED3" library="TiLDA Mk4 Parts" package="LED-0603-CORRECT" value="0603 RED" x="1.27" y="72" smashed="yes" rot="R90">
@@ -6114,8 +6116,8 @@ design rules under a new name.</description>
 <element name="TP1" library="TiLDA Mk4 Parts" package="B1,27" value="TP" x="-7.6" y="60.7" rot="MR0">
 <attribute name="TP_SIGNAL_NAME" value="!HIB" x="-7.6" y="60.7" size="1.016" layer="28" ratio="15" rot="MR0" display="off"/>
 </element>
-<element name="X1" library="TiLDA Mk4 Parts" package="RESONATOR_EPSON_FC_145" value="FC-135R 32.768KHZ 9PF" x="-5.6" y="64.25" rot="MR180"/>
-<element name="X2" library="TiLDA Mk4 Parts" package="CRYSTAL-3.2-2.5" value="NX3225GA-25.000M-STD-CRG-2" x="3.25" y="67.75" rot="MR90"/>
+<element name="X1" library="TiLDA Mk4 Parts" package="RESONATOR_EPSON_FC_145" value="ABS07-32.768KHZ-T" x="-5.6" y="64.25" rot="MR180"/>
+<element name="X2" library="TiLDA Mk4 Parts" package="CRYSTAL-3.2-2.5" value="ABM8G-25.000MHZ-B4Y-T" x="3.25" y="67.75" rot="MR90"/>
 <element name="R6" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/2K/5%" x="3.75" y="63.75" rot="MR90"/>
 <element name="C16" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/12p/50V/C0G" x="2.25" y="65.25" rot="MR180"/>
 <element name="C17" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/12p/50V/C0G" x="4.25" y="65.25" rot="MR0"/>
@@ -6192,8 +6194,8 @@ design rules under a new name.</description>
 <element name="JP8" library="TiLDA Mk4 Parts" package="1X04-1.27MM" value="1x04_1.27MM" x="-51" y="39" rot="MR0">
 <attribute name="DNP" value="Y" x="-51" y="39" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="ANT1" library="TiLDA Mk4 Parts" package="2450AT18D0100-RIGHT" value="24509AT1BD100" x="-48.25" y="68" rot="MR160"/>
-<element name="ANT2" library="TiLDA Mk4 Parts" package="2450AT18D0100" value="24509AT1BD100" x="48.25" y="68" rot="MR20"/>
+<element name="ANT1" library="TiLDA Mk4 Parts" package="2450AT18D0100-RIGHT" value="2450AT18D0100" x="-48.25" y="68" rot="MR160"/>
+<element name="ANT2" library="TiLDA Mk4 Parts" package="2450AT18D0100" value="2450AT18D0100" x="48.25" y="68" rot="MR20"/>
 <element name="C48" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/22p/10V/X5R" x="41.5" y="52.5" rot="MR270"/>
 <element name="C49" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/22p/10V/X5R" x="38.5" y="52.5" rot="MR270"/>
 <element name="C50" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/22p/10V/X5R" x="36.5" y="52.5" rot="MR270"/>
@@ -6277,7 +6279,7 @@ design rules under a new name.</description>
 <element name="R54" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="25.5" y="54.5" rot="MR270"/>
 <element name="R55" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="27.75" y="49.75" rot="MR180"/>
 <element name="R56" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="34.25" y="59.5" rot="MR180"/>
-<element name="IC13" library="TiLDA Mk4 Parts" package="VSON-8" value="TPA2066D1" x="-34.5" y="27.25" rot="MR0"/>
+<element name="IC13" library="TiLDA Mk4 Parts" package="VSON-8" value="TPA2006D1" x="-34.5" y="27.25" rot="MR0"/>
 <element name="R57" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/150K/1%" x="-31.25" y="27.25" rot="MR0"/>
 <element name="R58" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/150K/1%" x="-31.25" y="26.25" rot="MR0"/>
 <element name="C82" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/220n/6V/X5R" x="-29.25" y="26.25" rot="MR180"/>
@@ -6287,10 +6289,11 @@ design rules under a new name.</description>
 <element name="SJ1" library="TiLDA Mk4 Parts" package="SJ_3" value="Amp Power Select" x="-34.5" y="31" rot="MR0">
 <attribute name="DNP" value="Y" x="-34.5" y="31" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
+<element name="BATT" library="TiLDA Mk4 Parts" package="BATTERY-32X50" value="1000mAh JST-PH" x="-0.5" y="12" rot="R90"/>
 </elements>
 <signals>
 <signal name="GND">
-<contactref element="OUTLINE1" pad="GND"/>
+<contactref element="PCB" pad="GND"/>
 <contactref element="C45" pad="1"/>
 <contactref element="C38" pad="1"/>
 <contactref element="J2" pad="48"/>
@@ -6367,7 +6370,7 @@ design rules under a new name.</description>
 <via x="-50" y="47" extent="1-16" drill="0.3"/>
 <via x="-38" y="53" extent="1-16" drill="0.3"/>
 <via x="-30.25" y="49" extent="1-16" drill="0.3"/>
-<contactref element="JP1" pad="1"/>
+<contactref element="J5" pad="1"/>
 <via x="19.5" y="14.75" extent="1-16" drill="0.3"/>
 <via x="21" y="13.5" extent="1-16" drill="0.3"/>
 <contactref element="J3" pad="3"/>
@@ -6872,7 +6875,7 @@ design rules under a new name.</description>
 <wire x1="-0.75" y1="8.85" x2="-8.1" y2="8.25" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="VBAT">
-<contactref element="JP1" pad="2"/>
+<contactref element="J5" pad="2"/>
 <contactref element="IC8" pad="13"/>
 <contactref element="IC8" pad="14"/>
 <contactref element="C35" pad="1"/>
@@ -7176,7 +7179,7 @@ design rules under a new name.</description>
 <wire x1="-35.470009375" y1="37.07313125" x2="-2.6" y2="60.7" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="3V3">
-<contactref element="OUTLINE1" pad="3V3"/>
+<contactref element="PCB" pad="3V3"/>
 <contactref element="SW1" pad="COM"/>
 <contactref element="C38" pad="2"/>
 <contactref element="J2" pad="40"/>
@@ -7678,7 +7681,7 @@ design rules under a new name.</description>
 <wire x1="-9.95" y1="72.4" x2="9.95" y2="75.6" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V_UNREG">
-<contactref element="OUTLINE1" pad="VBATT"/>
+<contactref element="PCB" pad="VBATT"/>
 <contactref element="IC8" pad="16"/>
 <contactref element="IC8" pad="15"/>
 <contactref element="L1" pad="2"/>
@@ -8055,19 +8058,19 @@ design rules under a new name.</description>
 <contactref element="IC4" pad="16"/>
 </signal>
 <signal name="CH1">
-<contactref element="OUTLINE1" pad="CH4"/>
+<contactref element="PCB" pad="CH4"/>
 </signal>
 <signal name="CH2">
-<contactref element="OUTLINE1" pad="CH3"/>
+<contactref element="PCB" pad="CH3"/>
 </signal>
 <signal name="CH3">
-<contactref element="OUTLINE1" pad="CH2"/>
+<contactref element="PCB" pad="CH2"/>
 </signal>
 <signal name="CH4">
-<contactref element="OUTLINE1" pad="CH1"/>
+<contactref element="PCB" pad="CH1"/>
 </signal>
 <signal name="FET_OUT">
-<contactref element="OUTLINE1" pad="FET"/>
+<contactref element="PCB" pad="FET"/>
 <contactref element="LED5" pad="K"/>
 <contactref element="Q2" pad="3"/>
 <wire x1="47.925" y1="11" x2="50.04214375" y2="7.77116875" width="0" layer="19" extent="16-16"/>
@@ -8079,12 +8082,12 @@ design rules under a new name.</description>
 <wire x1="-29.92" y1="13" x2="-27.27" y2="10" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="I2C2_SDA">
-<contactref element="OUTLINE1" pad="SDA"/>
+<contactref element="PCB" pad="SDA"/>
 <contactref element="R23" pad="1"/>
 <wire x1="43.96194375" y1="5.8333125" x2="-1" y2="56.5" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="I2C2_SCL">
-<contactref element="OUTLINE1" pad="SCL"/>
+<contactref element="PCB" pad="SCL"/>
 <contactref element="R24" pad="1"/>
 <wire x1="37.79828125" y1="4.38555625" x2="-1" y2="55.5" width="0" layer="19" extent="16-16"/>
 </signal>
