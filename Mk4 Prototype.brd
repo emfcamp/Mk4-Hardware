@@ -5947,39 +5947,40 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FID1" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-12" y="2.5" locked="yes" smashed="yes" rot="R270"/>
-<element name="FID4" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="0" y="80" locked="yes" smashed="yes" rot="MR180"/>
-<element name="FID3" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="0" y="80" locked="yes" smashed="yes" rot="R180"/>
-<element name="FID6" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-12" y="2.5" locked="yes" smashed="yes" rot="MR270"/>
-<element name="FID2" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-62" y="28" locked="yes" rot="MR180"/>
-<element name="FID5" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-62" y="28" locked="yes" rot="R180"/>
-<element name="OUTLINE1" library="TiLDA Mk4 Parts" package="TILDA_MK4_OUTLINE" value="TILDA_MK3_BOARDOUTLINE-MK4" x="0" y="0" locked="yes"/>
+<element name="FID1" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-12" y="2.5" locked="yes" smashed="yes" rot="R270">
+<attribute name="DNP" value="Y" x="-12" y="2.5" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="FID4" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="0" y="80" locked="yes" smashed="yes" rot="MR180">
+<attribute name="DNP" value="Y" x="0" y="80" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="FID3" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="0" y="80" locked="yes" smashed="yes" rot="R180">
+<attribute name="DNP" value="Y" x="0" y="80" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="FID6" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-12" y="2.5" locked="yes" smashed="yes" rot="MR270">
+<attribute name="DNP" value="Y" x="-12" y="2.5" size="1.778" layer="28" rot="MR270" display="off"/>
+</element>
+<element name="FID2" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-62" y="28" locked="yes" rot="MR180">
+<attribute name="DNP" value="Y" x="-62" y="28" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
+<element name="FID5" library="TiLDA Mk4 Parts" package="FIDUCIAL-1X2.5-STOP" value="FIDUCIAL1X2.5-STOP" x="-62" y="28" locked="yes" rot="R180">
+<attribute name="DNP" value="Y" x="-62" y="28" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="OUTLINE1" library="TiLDA Mk4 Parts" package="TILDA_MK4_OUTLINE" value="TILDA_MK3_BOARDOUTLINE-MK4" x="0" y="0" locked="yes">
+<attribute name="DNP" value="Y" x="0" y="0" size="1.778" layer="27" display="off"/>
+</element>
 <element name="IC3" library="TiLDA Mk4 Parts" package="CC3100MOD-LWK" value="CC3120MOD" x="-44.925" y="49.9" rot="MR0"/>
-<element name="R47" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="12.5" y="39" rot="MR270">
-<attribute name="FARNELL" value="9331280" x="-82.5" y="74" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="-82.5" y="74" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="R48" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="11.5" y="39" rot="MR270">
-<attribute name="FARNELL" value="9331280" x="-78.5" y="89" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="-78.5" y="89" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="R49" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="10.5" y="39" rot="MR270">
-<attribute name="FARNELL" value="9331280" x="-79.5" y="39" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="-79.5" y="39" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
+<element name="R47" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="12.5" y="39" rot="MR270"/>
+<element name="R48" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="11.5" y="39" rot="MR270"/>
+<element name="R49" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="10.5" y="39" rot="MR270"/>
 <element name="C38" library="TiLDA Mk4 Parts" package="C0603K-SMALL" value="0603/4u7/10V/X5R" x="-8.25" y="40.25" rot="MR180"/>
 <element name="J2" library="TiLDA Mk4 Parts" package="FH12-50S-0.5SH" value="ER-CON50HT-1" x="0" y="33.5" locked="yes" rot="MR0"/>
-<element name="R44" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="9.5" y="39" rot="MR270">
-<attribute name="FARNELL" value="9331280" x="-30.5" y="59" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="-30.5" y="59" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="Q8" library="TiLDA Mk4 Parts" package="Q2" value="CSD13202Q2" x="14.5" y="38.75" rot="MR270">
-<attribute name="FARNELL" value="2501084" x="-35.5" y="63.75" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
+<element name="R44" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/12R/5%" x="9.5" y="39" rot="MR270"/>
+<element name="Q8" library="TiLDA Mk4 Parts" package="Q2" value="CSD13202Q2" x="14.5" y="38.75" rot="MR270"/>
 <element name="C45" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="-8.25" y="39" rot="MR180"/>
-<element name="U2" library="TiLDA Mk4 Parts" package="ER-TFT024-3" value="ER-TFT024-3 (NP)" x="0" y="33.5" locked="yes" smashed="yes"/>
+<element name="U2" library="TiLDA Mk4 Parts" package="ER-TFT024-3" value="ER-TFT024-3" x="0" y="33.5" locked="yes" smashed="yes">
+<attribute name="DNP" value="Y" x="0" y="33.5" size="1.778" layer="27" display="off"/>
+</element>
 <element name="SW1" library="TiLDA Mk4 Parts" package="JOYSTICK_MULTICOMP_NOSILK" value="JOYSTICK" x="-39.2" y="39" locked="yes" smashed="yes" rot="R315">
-<attribute name="FARNELL" value="1316987" x="-17.98679375" y="60.213203125" size="1.778" layer="27" rot="R315" display="off"/>
 <attribute name="VALUE" x="-35.3109125" y="40.76776875" size="0.4064" layer="27" rot="R315"/>
 </element>
 <element name="S1" library="TiLDA Mk4 Parts" package="SKPMAPE010" value="SKPMAPE010" x="28" y="53.5" locked="yes" smashed="yes">
@@ -6040,18 +6041,21 @@ design rules under a new name.</description>
 <element name="S17" library="TiLDA Mk4 Parts" package="TACTILE_SWITCH_SMD_3X6X2.5H" value="3X6X2.5" x="30" y="68" locked="yes" smashed="yes" rot="R345">
 <attribute name="VALUE" x="26.88823125" y="67.5914625" size="0.8128" layer="27" rot="R345"/>
 </element>
-<element name="S18" library="TiLDA Mk4 Parts" package="SWITCH-SPST-SMD-A" value="CUS-12TB" x="0" y="7.1" locked="yes" rot="MR180">
-<attribute name="FARNELL" value="9575146" x="0" y="7.1" size="3.81" layer="28" ratio="15" rot="MR180" display="off"/>
+<element name="S18" library="TiLDA Mk4 Parts" package="SWITCH-SPST-SMD-A" value="CUS-12TB" x="0" y="7.1" locked="yes" rot="MR180"/>
+<element name="LAYERS1" library="TiLDA Mk4 Parts" package="LAYER_NUMBERS_4_SMALL" value="LAYER_NUMBRS_4_SMALL" x="-2" y="14.5">
+<attribute name="DNP" value="Y" x="-2" y="14.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="LAYERS1" library="TiLDA Mk4 Parts" package="LAYER_NUMBERS_4_SMALL" value="LAYER_NUMBRS_4_SMALL" x="-2" y="14.5"/>
 <element name="IC1" library="TiLDA Mk4 Parts" package="QFP128-0.4" value="MSP432E401" x="0" y="53" rot="MR0"/>
 <element name="JP1" library="TiLDA Mk4 Parts" package="JST-2-SMD" value="S2B-PH-SM4-TB(LF)(SN)" x="28.8" y="15.8" rot="MR90"/>
 <element name="IC5" library="TiLDA Mk4 Parts" package="SIM800C" value="SIM800C" x="40.5" y="41" rot="MR180"/>
-<element name="ARTWORK1" library="TiLDA Mk4 Parts" package="TILDA_ARTWORK_JOYSTICK" value="ARTWORK_JOYSTICK" x="-39.2" y="39" locked="yes"/>
-<element name="ARTWORK2" library="TiLDA Mk4 Parts" package="TILDA_ARTWORK_KEYPAD" value="ARTWORK_KEYPAD" x="0" y="0" locked="yes"/>
+<element name="ARTWORK1" library="TiLDA Mk4 Parts" package="TILDA_ARTWORK_JOYSTICK" value="ARTWORK_JOYSTICK" x="-39.2" y="39" locked="yes">
+<attribute name="DNP" value="Y" x="-39.2" y="39" size="1.778" layer="27" display="off"/>
+</element>
+<element name="ARTWORK2" library="TiLDA Mk4 Parts" package="TILDA_ARTWORK_KEYPAD" value="ARTWORK_KEYPAD" x="0" y="0" locked="yes">
+<attribute name="DNP" value="Y" x="0" y="0" size="1.778" layer="27" display="off"/>
+</element>
 <element name="J3" library="TiLDA Mk4 Parts" package="PINHEAD_2X05_127" value="2x5 1.27mm" x="29.9" y="60.95" rot="MR0">
 <attribute name="DNP" value="Y" x="29.9" y="60.95" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL" value="1865285" x="29.9" y="60.95" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="JP4" library="TiLDA Mk4 Parts" package="TC2030-MCP-NL" value="TC2030-MCP-NL" x="24.3" y="56.85" rot="MR90">
 <attribute name="DNP" value="Y" x="24.3" y="56.85" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -6073,16 +6077,14 @@ design rules under a new name.</description>
 <element name="J4" library="TiLDA Mk4 Parts" package="GSM-ANTENNA" value="GSM-COIL-ANT" x="56.5" y="36" rot="MR0"/>
 <element name="LED3" library="TiLDA Mk4 Parts" package="LED-0603-CORRECT" value="0603 RED" x="1.27" y="72" smashed="yes" rot="R90">
 <attribute name="COLOUR" value="RED" x="-11.23" y="64" size="1.016" layer="27" ratio="15" rot="R90" display="off"/>
-<attribute name="FARNELL" value="2449874" x="-11.23" y="64" size="1.016" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="2.3495" y="70.984" size="0.4064" layer="27" rot="R90"/>
 </element>
 <element name="LED4" library="TiLDA Mk4 Parts" package="LED-0603-CORRECT" value="0603 GREEN" x="-1.27" y="72" smashed="yes" rot="R90">
 <attribute name="COLOUR" value="GREEN" x="-13.77" y="65.5" size="1.016" layer="27" ratio="15" rot="R90" display="off"/>
-<attribute name="FARNELL" value="2426215" x="-13.77" y="65.5" size="1.016" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="VALUE" x="-0.1905" y="70.984" size="0.4064" layer="27" rot="R90"/>
 </element>
-<element name="R12" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/2k/5%" x="1.27" y="72" rot="MR270"/>
-<element name="R14" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4k7/5%" x="-1.27" y="72" rot="MR270"/>
+<element name="R12" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/2K/5%" x="1.27" y="72" rot="MR270"/>
+<element name="R14" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K7/5%" x="-1.27" y="72" rot="MR270"/>
 <element name="C2" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="10.25" y="46.25" rot="MR0"/>
 <element name="JP7" library="TiLDA Mk4 Parts" package="1X14_LOCK" value="1x14" x="-57.75" y="47.5" rot="MR270">
 <attribute name="DNP" value="Y" x="-57.75" y="47.5" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -6101,7 +6103,7 @@ design rules under a new name.</description>
 <element name="C12" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="0" y="43.5" rot="MR180"/>
 <element name="C13" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="2.75" y="43.5" rot="MR180"/>
 <element name="C14" library="TiLDA Mk4 Parts" package="C0603K-SMALL" value="0603/1u/10V/X5R" x="2.75" y="42.25" rot="MR180"/>
-<element name="R3" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4k87/5%" x="-10" y="57.25" rot="MR0"/>
+<element name="R3" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K87/5%" x="-10" y="57.25" rot="MR0"/>
 <element name="S19" library="TiLDA Mk4 Parts" package="TACTILE_SWITCH_SMD_3X6X2.5H" value="3X6X2.5" x="12" y="8.25" rot="MR180"/>
 <element name="R4" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-1.25" y="65.25" rot="MR180"/>
 <element name="C15" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="-1.25" y="64.25" rot="MR0"/>
@@ -6121,13 +6123,11 @@ design rules under a new name.</description>
 <element name="C19" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/12p/50V/C0G" x="-4.6" y="62.5" rot="MR0"/>
 <element name="C20" library="TiLDA Mk4 Parts" package="C0603K-SMALL" value="0603/3300p/50V/X7R" x="4.25" y="72" rot="MR90"/>
 <element name="R7" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1M/5%" x="5.5" y="72" rot="MR270"/>
-<element name="R8" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/100/5%" x="11" y="67.25" rot="MR270"/>
+<element name="R8" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/100R/5%" x="11" y="67.25" rot="MR270"/>
 <element name="IC7" library="TiLDA Mk4 Parts" package="DRL-5" value="TPD3E001DRL" x="10" y="69.25" rot="MR180"/>
-<element name="R9" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="8" y="43.5" rot="MR270"/>
-<element name="R10" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="18.5" y="42" rot="MR270"/>
-<element name="L2" library="TiLDA Mk4 Parts" package="WUERTH-0805" value="BLM18KG121TN1D" x="8" y="69.5" rot="MR270">
-<attribute name="FARNELL" value="1781089" x="8.5" y="69.5" size="1.016" layer="28" ratio="15" rot="MR270" display="off"/>
-</element>
+<element name="R9" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="8" y="43.5" rot="MR270"/>
+<element name="R10" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="18.5" y="42" rot="MR270"/>
+<element name="L2" library="TiLDA Mk4 Parts" package="WUERTH-0805" value="BLM18KG121TN1D" x="8" y="69.5" rot="MR270"/>
 <element name="C21" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="21.5" y="26" rot="MR90"/>
 <element name="LED5" library="TiLDA Mk4 Parts" package="LED5MM" value="LED 5MM" x="-26" y="10" smashed="yes">
 <attribute name="DNP" value="Y" x="-26" y="10" size="1.778" layer="27" display="off"/>
@@ -6153,62 +6153,41 @@ design rules under a new name.</description>
 <element name="C32" library="TiLDA Mk4 Parts" package="CT3528" value="1411/100u/10V/Tant" x="34.25" y="27" rot="MR90">
 <attribute name="DNP" value="Y" x="34.25" y="27" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R13" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="-22.75" y="15" rot="MR90"/>
+<element name="R13" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-22.75" y="15" rot="MR90"/>
 <element name="Q3" library="TiLDA Mk4 Parts" package="Q3A" value="CSD25402Q3A" x="-20.5" y="16" rot="MR0"/>
-<element name="L4" library="TiLDA Mk4 Parts" package="1008" value="SRN2512-2R2M" x="-27.75" y="19.75" rot="MR90">
-<attribute name="FARNELL" value="2428203" x="-19.25" y="14.25" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
-<element name="C33" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-31.25" y="23.75" rot="MR0">
-<attribute name="FARNELL" value="2112853/2362101/2576756" x="-15.75" y="28.75" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="C46" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-31.25" y="16.75" rot="MR0">
-<attribute name="FARNELL" value="2112853/2362101/2576756" x="-15.75" y="30.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="IC9" library="TiLDA Mk4 Parts" package="WSON8" value="TPS62082" x="-31.25" y="19.25" rot="MR90">
-<attribute name="FARNELL" value="2064227" x="-13.75" y="-1.75" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
-<element name="C47" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-31.25" y="21.75" rot="MR0">
-<attribute name="FARNELL" value="2112853/2362101/2576756" x="-1.75" y="35.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
+<element name="L4" library="TiLDA Mk4 Parts" package="1008" value="SRN2512-2R2M" x="-27.75" y="19.75" rot="MR90"/>
+<element name="C33" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-31.25" y="23.75" rot="MR0"/>
+<element name="C46" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-31.25" y="16.75" rot="MR0"/>
+<element name="IC9" library="TiLDA Mk4 Parts" package="WSON8" value="TPS62082" x="-31.25" y="19.25" rot="MR90"/>
+<element name="C47" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-31.25" y="21.75" rot="MR0"/>
 <element name="IC8" library="TiLDA Mk4 Parts" package="QFN-24" value="BQ25601" x="-19.75" y="24" rot="MR270"/>
-<element name="C34" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="21" y="15.75" rot="MR270">
-<attribute name="FARNELL" value="2112853/2362101/2576756" x="21" y="15.75" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="C35" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-17.25" y="20" rot="MR180">
-<attribute name="FARNELL" value="2112853/2362101/2576756" x="-17.25" y="20" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R15" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="-15.25" y="23.25" rot="MR0"/>
-<element name="R16" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="-15.25" y="22.25" rot="MR180"/>
-<element name="C36" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-24.25" y="26.5" rot="MR90">
-<attribute name="FARNELL" value="2112853/2362101/2576756" x="-24.25" y="26.5" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
+<element name="C34" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="21" y="15.75" rot="MR270"/>
+<element name="C35" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-17.25" y="20" rot="MR180"/>
+<element name="R15" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-15.25" y="23.25" rot="MR0"/>
+<element name="R16" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-15.25" y="22.25" rot="MR180"/>
+<element name="C36" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-24.25" y="26.5" rot="MR90"/>
 <element name="C39" library="TiLDA Mk4 Parts" package="C0603K-SMALL" value="0603/4u7/10V/X5R" x="-24.75" y="24.25" rot="MR180"/>
-<element name="C37" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/??/10V/X5R" x="-24.25" y="23.25" rot="MR0"/>
-<element name="L1" library="TiLDA Mk4 Parts" package="1008" value="SRN2512-2R2M" x="-24.75" y="19.75" rot="MR270">
-<attribute name="FARNELL" value="2428203" x="-24.75" y="19.75" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="C40" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-20.75" y="19" rot="MR0">
-<attribute name="FARNELL" value="2112853/2362101/2576756" x="-20.75" y="19" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R17" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/2k/5%" x="-15.25" y="24.25" rot="MR180"/>
+<element name="C37" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/47n/10V/X5R" x="-24.25" y="23.25" rot="MR0"/>
+<element name="L1" library="TiLDA Mk4 Parts" package="1008" value="SRN2512-2R2M" x="-24.75" y="19.75" rot="MR270"/>
+<element name="C40" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-20.75" y="19" rot="MR0"/>
+<element name="R17" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/2K/5%" x="-15.25" y="24.25" rot="MR180"/>
 <element name="JP3" library="TiLDA Mk4 Parts" package="1X02_2MM" value="1x02 2MM" x="-18.25" y="8.25" rot="MR0">
 <attribute name="DNP" value="Y" x="-18.25" y="8.25" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C41" library="TiLDA Mk4 Parts" package="C0603K-SMALL" value="0603/1u/10V/X5R" x="-23.25" y="28.75" rot="MR0"/>
-<element name="R18" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="-19.75" y="30.5" rot="MR180"/>
-<element name="R19" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="-19.75" y="29.5" rot="MR180"/>
-<element name="R20" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="-19.25" y="28" rot="MR90"/>
+<element name="R18" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-19.75" y="30.5" rot="MR180"/>
+<element name="R19" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-19.75" y="29.5" rot="MR180"/>
+<element name="R20" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-19.25" y="28" rot="MR90"/>
 <element name="LED6" library="TiLDA Mk4 Parts" package="LED-0603-CORRECT" value="0603 RED" x="-17.25" y="28.75" rot="MR180">
 <attribute name="COLOUR" value="RED" x="-17.25" y="28.75" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL" value="2449874" x="-17.25" y="28.75" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R21" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4k7/5%" x="11" y="49" rot="MR180"/>
-<element name="R22" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4k7/5%" x="11" y="48" rot="MR180"/>
-<element name="R23" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4k7/5%" x="-1.5" y="56.5" rot="MR0"/>
-<element name="R24" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4k7/5%" x="-1.5" y="55.5" rot="MR0"/>
+<element name="R21" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K7/5%" x="11" y="49" rot="MR180"/>
+<element name="R22" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K7/5%" x="11" y="48" rot="MR180"/>
+<element name="R23" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K7/5%" x="-1.5" y="56.5" rot="MR0"/>
+<element name="R24" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K7/5%" x="-1.5" y="55.5" rot="MR0"/>
 <element name="C42" library="TiLDA Mk4 Parts" package="C1210K" value="1210/100u/6V3/X5R" x="-35.5" y="61.5" rot="MR270"/>
 <element name="C43" library="TiLDA Mk4 Parts" package="C1210K" value="1210/100u/6V3/X5R" x="-39" y="61.5" rot="MR270"/>
-<element name="R25" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/100k/5%" x="-39.25" y="39.75" rot="MR270"/>
+<element name="R25" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/100K/5%" x="-39.25" y="39.75" rot="MR270"/>
 <element name="C44" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="-42.25" y="59.5" rot="MR0"/>
 <element name="JP8" library="TiLDA Mk4 Parts" package="1X04-1.27MM" value="1x04_1.27MM" x="-51" y="39" rot="MR0">
 <attribute name="DNP" value="Y" x="-51" y="39" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -6218,73 +6197,25 @@ design rules under a new name.</description>
 <element name="C48" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/22p/10V/X5R" x="41.5" y="52.5" rot="MR270"/>
 <element name="C49" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/22p/10V/X5R" x="38.5" y="52.5" rot="MR270"/>
 <element name="C50" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/22p/10V/X5R" x="36.5" y="52.5" rot="MR270"/>
-<element name="R26" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/51R/5%" x="37.5" y="52.5" rot="MR90">
-<attribute name="FARNELL" value="9331280" x="37.5" y="52.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="37.5" y="52.5" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
-<element name="R27" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/51R/5%" x="39.5" y="52.5" rot="MR90">
-<attribute name="FARNELL" value="9331280" x="39.5" y="52.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="39.5" y="52.5" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
-<element name="R28" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/51R/5%" x="40.5" y="52.5" rot="MR90">
-<attribute name="FARNELL" value="9331280" x="40.5" y="52.5" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="40.5" y="52.5" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
+<element name="R26" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/51R/5%" x="37.5" y="52.5" rot="MR90"/>
+<element name="R27" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/51R/5%" x="39.5" y="52.5" rot="MR90"/>
+<element name="R28" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/51R/5%" x="40.5" y="52.5" rot="MR90"/>
 <element name="C51" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="57" y="29" rot="MR180"/>
 <element name="IC10" library="TiLDA Mk4 Parts" package="DRL-5" value="TPD3E001DRL" x="53.5" y="29" rot="MR0"/>
-<element name="R29" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K7/5%" x="38" y="30.5" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="38" y="30.5" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="38" y="30.5" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R30" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/100k/5%" x="28.5" y="29.5" rot="MR90"/>
-<element name="R31" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="41.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="41.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="41.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R38" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/5K6/5%" x="30" y="34.25" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="30" y="34.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="34.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R32" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="42.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="42.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="42.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R33" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="39.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="39.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="39.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R34" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="38.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="38.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="38.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R35" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="37.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="37.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="37.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R36" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="33.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="33.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="33.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R37" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="35.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="35.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="35.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R39" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/5K6/5%" x="30" y="36.25" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="30" y="36.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="36.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R40" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/5K6/5%" x="30" y="40.25" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="30" y="40.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="40.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R41" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="32.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="32.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="32.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R42" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="31.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="30" y="31.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="30" y="31.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
+<element name="R29" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/4K7/5%" x="38" y="30.5" rot="MR0"/>
+<element name="R30" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/100K/5%" x="28.5" y="29.5" rot="MR90"/>
+<element name="R31" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="41.25" rot="MR180"/>
+<element name="R38" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/5K6/5%" x="30" y="34.25" rot="MR0"/>
+<element name="R32" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="42.25" rot="MR180"/>
+<element name="R33" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="39.25" rot="MR180"/>
+<element name="R34" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="38.25" rot="MR180"/>
+<element name="R35" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="37.25" rot="MR180"/>
+<element name="R36" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="33.25" rot="MR180"/>
+<element name="R37" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="35.25" rot="MR180"/>
+<element name="R39" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/5K6/5%" x="30" y="36.25" rot="MR0"/>
+<element name="R40" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/5K6/5%" x="30" y="40.25" rot="MR0"/>
+<element name="R41" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="32.25" rot="MR180"/>
+<element name="R42" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/1K/5%" x="30" y="31.25" rot="MR180"/>
 <element name="JP9" library="TiLDA Mk4 Parts" package="1X04-1.27MM" value="1x04_1.27MM" x="53.5" y="49.5" rot="MR0">
 <attribute name="DNP" value="Y" x="53.5" y="49.5" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
@@ -6302,26 +6233,11 @@ design rules under a new name.</description>
 <element name="C67" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/33p/50V/X5R" x="29.5" y="48.5" rot="MR90"/>
 <element name="C68" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/10p/50V/X5R" x="30.5" y="46.5" rot="MR90"/>
 <element name="C69" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/10p/50V/X5R" x="30.5" y="44.5" rot="MR270"/>
-<element name="R43" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="20.75" y="47.25" rot="MR90">
-<attribute name="FARNELL" value="9331280" x="20.75" y="47.25" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="20.75" y="47.25" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
-<element name="R45" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="21.75" y="47.25" rot="MR90">
-<attribute name="FARNELL" value="9331280" x="21.75" y="47.25" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="21.75" y="47.25" size="1.778" layer="28" rot="MR90" display="off"/>
-</element>
-<element name="R46" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="22.25" y="49.75" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="22.25" y="49.75" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="22.25" y="49.75" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R50" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/22K/5%" x="20.25" y="49.75" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="20.25" y="49.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="20.25" y="49.75" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R51" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/22K/5%" x="20.25" y="48.75" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="20.25" y="48.75" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="20.25" y="48.75" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
+<element name="R43" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="20.75" y="47.25" rot="MR90"/>
+<element name="R45" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="21.75" y="47.25" rot="MR90"/>
+<element name="R46" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="22.25" y="49.75" rot="MR180"/>
+<element name="R50" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/22K/5%" x="20.25" y="49.75" rot="MR0"/>
+<element name="R51" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/22K/5%" x="20.25" y="48.75" rot="MR0"/>
 <element name="IC11" library="TiLDA Mk4 Parts" package="SO08-SPARK-NEW" value="LMV358ID" x="20" y="54" rot="MR180">
 <attribute name="PROD_ID" value="NA-XXXXX" x="20" y="54" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
@@ -6350,45 +6266,24 @@ design rules under a new name.</description>
 <element name="C77" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="" x="-51.75" y="65.25" rot="MR160">
 <attribute name="DNP" value="Y" x="-51.75" y="65.25" size="1.778" layer="28" rot="MR160" display="off"/>
 </element>
-<element name="R52" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/14K7/5%" x="20" y="59.25" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="20" y="59.25" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="20" y="59.25" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R53" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/7K87/5%" x="17" y="58.25" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="17" y="58.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="17" y="58.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
+<element name="R52" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/14K7/5%" x="20" y="59.25" rot="MR180"/>
+<element name="R53" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/7K87/5%" x="17" y="58.25" rot="MR0"/>
 <element name="C78" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/1n/10V/X5R" x="21" y="58.25" rot="MR0"/>
 <element name="C79" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/2n2/10V/X5R" x="19" y="58.25" rot="MR0"/>
 <element name="C80" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="24" y="55" rot="MR0">
 <attribute name="DNP" value="Y" x="24" y="55" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C81" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="24" y="54" rot="MR0"/>
-<element name="R54" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="25.5" y="54.5" rot="MR270">
-<attribute name="FARNELL" value="9331280" x="25.5" y="54.5" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="25.5" y="54.5" size="1.778" layer="28" rot="MR270" display="off"/>
-</element>
-<element name="R55" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="27.75" y="49.75" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="27.75" y="49.75" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="27.75" y="49.75" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
-<element name="R56" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="34.25" y="59.5" rot="MR180">
-<attribute name="FARNELL" value="9331280" x="34.25" y="59.5" size="1.778" layer="28" rot="MR180" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="34.25" y="59.5" size="1.778" layer="28" rot="MR180" display="off"/>
-</element>
+<element name="R54" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="25.5" y="54.5" rot="MR270"/>
+<element name="R55" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="27.75" y="49.75" rot="MR180"/>
+<element name="R56" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="34.25" y="59.5" rot="MR180"/>
 <element name="IC13" library="TiLDA Mk4 Parts" package="VSON-8" value="TPA2066D1" x="-34.5" y="27.25" rot="MR0"/>
-<element name="R57" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/150K/1%" x="-31.25" y="27.25" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="-31.25" y="27.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="-31.25" y="27.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
-<element name="R58" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/150K/1%" x="-31.25" y="26.25" rot="MR0">
-<attribute name="FARNELL" value="9331280" x="-31.25" y="26.25" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="FARNELL_REEL" value="2130678" x="-31.25" y="26.25" size="1.778" layer="28" rot="MR0" display="off"/>
-</element>
+<element name="R57" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/150K/1%" x="-31.25" y="27.25" rot="MR0"/>
+<element name="R58" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/150K/1%" x="-31.25" y="26.25" rot="MR0"/>
 <element name="C82" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/220n/6V/X5R" x="-29.25" y="26.25" rot="MR180"/>
 <element name="C83" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/220n/6V/X5R" x="-29.25" y="27.25" rot="MR180"/>
 <element name="C58" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/100n/10V/X5R" x="-37.25" y="27.25" rot="MR90"/>
-<element name="R59" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10k/5%" x="45" y="11" rot="MR90"/>
+<element name="R59" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="45" y="11" rot="MR90"/>
 <element name="SJ1" library="TiLDA Mk4 Parts" package="SJ_3" value="Amp Power Select" x="-34.5" y="31" rot="MR0">
 <attribute name="DNP" value="Y" x="-34.5" y="31" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
