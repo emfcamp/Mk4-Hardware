@@ -7,10 +7,10 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="3V3@2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="2" name="3V3@2" color="1" fill="3" visible="yes" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
 <layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
@@ -23,7 +23,7 @@
 <layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="GND@3" color="4" fill="6" visible="no" active="yes"/>
+<layer number="15" name="GND@3" color="4" fill="6" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -5610,6 +5610,30 @@ type 0309, grid 10mm</description>
 <wire x1="2" y1="7" x2="-2" y2="5" width="0.15" layer="21"/>
 <wire x1="-2" y1="5" x2="2" y2="3" width="0.15" layer="21"/>
 <wire x1="2" y1="3" x2="0" y2="2" width="0.15" layer="21"/>
+<polygon width="0" layer="1" pour="cutout">
+<vertex x="-2.5" y="24"/>
+<vertex x="2.5" y="24"/>
+<vertex x="2.5" y="0"/>
+<vertex x="-2.5" y="0"/>
+</polygon>
+<polygon width="0" layer="2" pour="cutout">
+<vertex x="-2.5" y="24"/>
+<vertex x="2.5" y="24"/>
+<vertex x="2.5" y="0"/>
+<vertex x="-2.5" y="0"/>
+</polygon>
+<polygon width="0" layer="15" pour="cutout">
+<vertex x="-2.5" y="24"/>
+<vertex x="2.5" y="24"/>
+<vertex x="2.5" y="0"/>
+<vertex x="-2.5" y="0"/>
+</polygon>
+<polygon width="0" layer="16" pour="cutout">
+<vertex x="-2.5" y="24"/>
+<vertex x="2.5" y="24"/>
+<vertex x="2.5" y="0"/>
+<vertex x="-2.5" y="0"/>
+</polygon>
 </package>
 <package name="LED5MM">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -8575,7 +8599,7 @@ design rules under a new name.</description>
 <element name="R15" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-14.25" y="23.25" rot="MR0"/>
 <element name="R16" library="TiLDA Mk4 Parts" package="R0402-SMALLER" value="0402/10K/5%" x="-14.25" y="22.25" rot="MR180"/>
 <element name="C36" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-23.25" y="26.5" rot="MR90"/>
-<element name="C39" library="TiLDA Mk4 Parts" package="C0603K-SMALL" value="0603/4u7/10V/X5R" x="-23.75" y="24.25" rot="MR180"/>
+<element name="C39" library="TiLDA Mk4 Parts" package="C0603K-SMALL" value="0603/4u7/10V/X5R" x="-23.8" y="24.25" rot="MR180"/>
 <element name="C37" library="TiLDA Mk4 Parts" package="C0402-SMALLER" value="0402/47n/10V/X5R" x="-23.25" y="23.25" rot="MR0"/>
 <element name="L1" library="TiLDA Mk4 Parts" package="1008" value="SRN2512-2R2M" x="-23.75" y="19.75" rot="MR270"/>
 <element name="C40" library="TiLDA Mk4 Parts" package="C0805-N" value="0805/10u/10V/X5R" x="-19.75" y="19" rot="MR0"/>
@@ -8806,6 +8830,9 @@ design rules under a new name.</description>
 <vertex x="25.3" y="0"/>
 <vertex x="28" y="0" curve="30.8"/>
 <vertex x="59.8" y="9"/>
+<vertex x="59.8" y="35"/>
+<vertex x="53.5" y="35"/>
+<vertex x="53.5" y="60"/>
 <vertex x="59.8" y="60" curve="64.112019"/>
 <vertex x="53.25" y="67.75" curve="24.117056"/>
 <vertex x="0" y="78" curve="24.117055"/>
@@ -9106,8 +9133,8 @@ design rules under a new name.</description>
 <contactref element="IC5" pad="8"/>
 <polygon width="0.15" layer="16" isolate="0.254" rank="6">
 <vertex x="-59.8" y="60"/>
-<vertex x="-59.8" y="8.5"/>
-<vertex x="-49" y="4"/>
+<vertex x="-59.8" y="16"/>
+<vertex x="-49" y="11"/>
 <vertex x="-48" y="32"/>
 <vertex x="-52" y="32"/>
 <vertex x="-53.5" y="33.5"/>
@@ -9121,8 +9148,7 @@ design rules under a new name.</description>
 <vertex x="59.8" y="30"/>
 <vertex x="59.8" y="35"/>
 <vertex x="53.5" y="35"/>
-<vertex x="53.5" y="59.5"/>
-<vertex x="59.8" y="59.5"/>
+<vertex x="53.5" y="60"/>
 <vertex x="59.8" y="60" curve="64.112019"/>
 <vertex x="53.25" y="67.75" curve="24.117056"/>
 <vertex x="0" y="78" curve="24.117055"/>
@@ -9617,9 +9643,9 @@ design rules under a new name.</description>
 <via x="53" y="54.75" extent="1-16" drill="0.3"/>
 <via x="53" y="56.75" extent="1-16" drill="0.3"/>
 <via x="53" y="58.75" extent="1-16" drill="0.3"/>
-<via x="54.5" y="59.75" extent="1-16" drill="0.3"/>
-<via x="56.5" y="59.75" extent="1-16" drill="0.3"/>
-<via x="58.5" y="59.75" extent="1-16" drill="0.3"/>
+<via x="53" y="60.35" extent="1-16" drill="0.3"/>
+<via x="56.4" y="60.35" extent="1-16" drill="0.3"/>
+<via x="58.4" y="60.35" extent="1-16" drill="0.3"/>
 <wire x1="57.55" y1="51.25" x2="53.5" y2="51.25" width="0.3" layer="1"/>
 <wire x1="53.5" y1="51.25" x2="53" y2="50.75" width="0.3" layer="1"/>
 <wire x1="54.75" y1="14.25" x2="54.75" y2="13.5" width="0.3" layer="16"/>
@@ -9712,7 +9738,7 @@ design rules under a new name.</description>
 <wire x1="-24.125" y1="29.75" x2="-24.25" y2="29.75" width="0.4" layer="16"/>
 <wire x1="-23.25" y1="27.4" x2="-24.4" y2="27.4" width="0.4" layer="16"/>
 <wire x1="-24.4" y1="27.4" x2="-24.5" y2="27.5" width="0.4" layer="16"/>
-<wire x1="-25.75" y1="24.25" x2="-24.625" y2="24.25" width="0.4" layer="16"/>
+<wire x1="-25.75" y1="24.25" x2="-24.675" y2="24.25" width="0.4" layer="16"/>
 <wire x1="-13.75" y1="23.25" x2="-13" y2="23.25" width="0.3" layer="16"/>
 <wire x1="-13.75" y1="24.25" x2="-13" y2="24.25" width="0.3" layer="16"/>
 <wire x1="-18.25" y1="29.5" x2="-17.5" y2="29.5" width="0.3" layer="16"/>
@@ -9921,9 +9947,9 @@ design rules under a new name.</description>
 <via x="-45.85" y="19.15" extent="1-16" drill="0.3"/>
 <polygon width="0.15" layer="1" rank="6">
 <vertex x="-59.8" y="39"/>
-<vertex x="-59.8" y="8.5" curve="33.907324"/>
-<vertex x="-23" y="0"/>
-<vertex x="-22.5" y="0"/>
+<vertex x="-59.8" y="16" curve="33.907324"/>
+<vertex x="-23" y="7.5"/>
+<vertex x="-22.5" y="7.5"/>
 <vertex x="-22.5" y="39"/>
 </polygon>
 <via x="-30.6" y="32.9" extent="1-16" drill="0.3"/>
@@ -11168,6 +11194,9 @@ design rules under a new name.</description>
 <vertex x="25.3" y="0"/>
 <vertex x="28" y="0" curve="30.8"/>
 <vertex x="59.8" y="9"/>
+<vertex x="59.8" y="35"/>
+<vertex x="53.5" y="35"/>
+<vertex x="53.5" y="60"/>
 <vertex x="59.8" y="60" curve="64.112019"/>
 <vertex x="53.25" y="67.75" curve="24.117056"/>
 <vertex x="0" y="78" curve="24.117055"/>
@@ -13507,7 +13536,7 @@ design rules under a new name.</description>
 <contactref element="C39" pad="2"/>
 <via x="-22" y="24.25" extent="1-16" drill="0.3"/>
 <via x="-13" y="22.25" extent="1-16" drill="0.3"/>
-<wire x1="-22.875" y1="24.25" x2="-22" y2="24.25" width="0.4" layer="16"/>
+<wire x1="-22.925" y1="24.25" x2="-22" y2="24.25" width="0.4" layer="16"/>
 <wire x1="-20.775" y1="24.25" x2="-22" y2="24.25" width="0.25" layer="16"/>
 <wire x1="-13.75" y1="22.25" x2="-13" y2="22.25" width="0.3" layer="16"/>
 <wire x1="-22" y1="24.25" x2="-22" y2="22.75" width="0.2" layer="1"/>
@@ -14971,8 +15000,11 @@ design rules under a new name.</description>
 <contactref element="R30" pad="1"/>
 <wire x1="29.575" y1="28.85" x2="29.425" y2="29" width="0.15" layer="16"/>
 <wire x1="29.425" y1="29" x2="28.5" y2="29" width="0.15" layer="16"/>
-<wire x1="28.5" y1="29" x2="25.4" y2="29" width="0.15" layer="16"/>
-<wire x1="25.4" y1="29" x2="23.9" y2="30.5" width="0.15" layer="16"/>
+<wire x1="28.5" y1="29" x2="27.4" y2="29" width="0.15" layer="16"/>
+<wire x1="27.4" y1="29" x2="27" y2="29.4" width="0.15" layer="16"/>
+<wire x1="27" y1="29.4" x2="25" y2="29.4" width="0.15" layer="16"/>
+<wire x1="25" y1="29.4" x2="24.7" y2="29.7" width="0.15" layer="16"/>
+<wire x1="24.7" y1="29.7" x2="23.9" y2="30.5" width="0.15" layer="16"/>
 <wire x1="23.9" y1="38.2" x2="23.3" y2="38.8" width="0.15" layer="16"/>
 <wire x1="23.9" y1="30.5" x2="23.9" y2="38.2" width="0.15" layer="16"/>
 <wire x1="23.3" y1="38.8" x2="22.43158125" y2="38.8" width="0.15" layer="16"/>
@@ -15157,8 +15189,10 @@ design rules under a new name.</description>
 <via x="-43" y="16.25" extent="1-16" drill="0.3"/>
 <wire x1="-43" y1="15.5" x2="-43" y2="16.25" width="0.25" layer="16"/>
 <wire x1="-43" y1="16.25" x2="-43" y2="17" width="1" layer="2"/>
-<wire x1="-41.25" y1="18.75" x2="-36.25" y2="18.75" width="1" layer="2"/>
-<wire x1="-43" y1="17" x2="-41.25" y2="18.75" width="1" layer="2"/>
+<wire x1="-37.25" y1="18.75" x2="-36.25" y2="18.75" width="1" layer="2"/>
+<wire x1="-43" y1="17" x2="-42.5" y2="17.5" width="1" layer="2"/>
+<wire x1="-42.5" y1="17.5" x2="-38.5" y2="17.5" width="1" layer="2"/>
+<wire x1="-38.5" y1="17.5" x2="-37.25" y2="18.75" width="1" layer="2"/>
 <wire x1="-36.25" y1="18.75" x2="-35.75" y2="18.75" width="1" layer="2"/>
 <wire x1="-35.75" y1="18.75" x2="-34.7" y2="19.8" width="1" layer="2"/>
 <wire x1="-31" y1="31" x2="-32.5" y2="32.5" width="1" layer="2"/>
@@ -15730,7 +15764,6 @@ design rules under a new name.</description>
 <approved hash="4,16,6aa73ef833caad62"/>
 <approved hash="4,16,ce207c30ce12df14"/>
 <approved hash="4,16,f5c43572d978441c"/>
-<approved hash="5,16,3913487db63f3aa9"/>
 <approved hash="5,16,4ace73d3c93cea78"/>
 <approved hash="5,16,c46bdf9df2b4975a"/>
 <approved hash="5,16,273cb1463d4d8ac2"/>
@@ -15768,6 +15801,150 @@ design rules under a new name.</description>
 <approved hash="7,40,0400043a9ec29ef8"/>
 <approved hash="7,40,4243717b9394b5d4"/>
 <approved hash="7,40,efa875c122bfadae"/>
+<approved hash="19,1,a2b15da94bce8fa4"/>
+<approved hash="19,1,003483cc5546edcc"/>
+<approved hash="19,16,fac8fce8f876fe56"/>
+<approved hash="19,16,2ac82cd47c4a7a56"/>
+<approved hash="19,16,d618d4f0846e8686"/>
+<approved hash="19,16,28482ac47a5a78d6"/>
+<approved hash="19,16,f907fccef850fd99"/>
+<approved hash="19,16,fe8dfd2af9b4fa13"/>
+<approved hash="19,16,f8f7f8defc40fc69"/>
+<approved hash="19,16,f887fa26feb8fc19"/>
+<approved hash="19,16,2e902c047c9a7e0e"/>
+<approved hash="19,16,284829c4795a78d6"/>
+<approved hash="19,16,2ac024d4744a7a5e"/>
+<approved hash="19,16,2b082b947b0a7b96"/>
+<approved hash="19,16,ffcef9d2664c6050"/>
+<approved hash="19,16,f9ceffd3fa4dfc50"/>
+<approved hash="19,16,21c827d2424c4456"/>
+<approved hash="19,16,59c95fda6a446c57"/>
+<approved hash="19,16,91d697caa254a448"/>
+<approved hash="19,16,f85df7c2f35cfcc3"/>
+<approved hash="19,16,061804cc00520286"/>
+<approved hash="19,16,031e01f69e689c80"/>
+<approved hash="19,16,a519a7fe92609087"/>
+<approved hash="19,16,9eb89f81771f7626"/>
+<approved hash="19,16,a3d0a4e54c7b4b4e"/>
+<approved hash="19,16,5bd05ce768796f4e"/>
+<approved hash="19,16,66b86783531d5226"/>
+<approved hash="19,16,14df13ea22742541"/>
+<approved hash="19,16,a4d6a3e36a7d6d48"/>
+<approved hash="19,16,a4d2a3e5427b454c"/>
+<approved hash="19,16,34d133ea5a745d4f"/>
+<approved hash="19,16,29b7288e19101829"/>
+<approved hash="19,16,99be988751195020"/>
+<approved hash="19,16,99ba9881791f7824"/>
+<approved hash="19,16,09b9088e61106027"/>
+<approved hash="19,16,575b54f1606f63c5"/>
+<approved hash="19,16,58a35f996b076c3d"/>
+<approved hash="19,16,58bb5f816b1f6c25"/>
+<approved hash="19,16,59d344f970676d4d"/>
+<approved hash="19,16,af5bacf3446d47c5"/>
+<approved hash="19,16,a0a3a79b4f05483d"/>
+<approved hash="19,16,a0bba7834f1d4825"/>
+<approved hash="19,16,a1d3bcfb5465494d"/>
+<approved hash="19,16,051e07f702690080"/>
+<approved hash="19,16,6d066fee5a705898"/>
+<approved hash="19,16,d319d1f686688487"/>
+<approved hash="19,16,385a3bfc526251c4"/>
+<approved hash="19,16,a859abf34a6d49c7"/>
+<approved hash="19,16,a85dabf5626b61c3"/>
+<approved hash="19,16,18541bfc2a6229ca"/>
+<approved hash="19,16,16dc0bf43a6a2742"/>
+<approved hash="19,16,17b4108c2112262a"/>
+<approved hash="19,16,17ac1094210a2632"/>
+<approved hash="19,16,a7a5a09d69036e3b"/>
+<approved hash="19,16,a7a1a09b4105463f"/>
+<approved hash="19,16,37a23094590a5e3c"/>
+<approved hash="19,16,37ba308c59125e24"/>
+<approved hash="19,16,36d22bf4426a5f4c"/>
+<approved hash="19,16,a7bda085691b6e23"/>
+<approved hash="19,16,a7b9a083411d4627"/>
+<approved hash="19,16,a6d5bbfd72636f4b"/>
+<approved hash="19,16,a6d1bbfb5a65474f"/>
+<approved hash="4,1,46727454700ec383"/>
+<approved hash="4,1,15d8693d2dc6557d"/>
+<approved hash="4,1,9d02961054fad49e"/>
+<approved hash="4,1,ac243bf1daadb797"/>
+<approved hash="4,1,6f2ed6b008a797ba"/>
+<approved hash="4,1,f1fe5604ae5ec67c"/>
+<approved hash="4,1,2e9d4b2795629efb"/>
+<approved hash="4,1,d0dee1cb0016f308"/>
+<approved hash="4,16,169f6b11814dfcd4"/>
+<approved hash="4,16,2e8c52d4becf3cea"/>
+<approved hash="4,16,fe788bc060f9aafb"/>
+<approved hash="4,16,46727455770ec380"/>
+<approved hash="4,16,15d8693d2dc6557d"/>
+<approved hash="4,16,9d02961054fad49e"/>
+<approved hash="4,16,ac243bf1daadb797"/>
+<approved hash="4,16,6f2ed6b008a797ba"/>
+<approved hash="4,16,f1fe5604ae5ec67c"/>
+<approved hash="5,16,d0eaebb99e71291d"/>
+<approved hash="5,16,f5c6cf3d2e96986e"/>
+<approved hash="5,16,e018f84e13eb1385"/>
+<approved hash="5,16,f113884e5d372ed7"/>
+<approved hash="5,16,5bac3c0261592917"/>
+<approved hash="5,16,d9f76e28481bd193"/>
+<approved hash="5,16,86b80c87f052a892"/>
+<approved hash="5,16,c2230295ba0164e7"/>
+<approved hash="5,16,264ac2b32c9011bf"/>
+<approved hash="5,16,36863608fdf2278c"/>
+<approved hash="5,16,71a665cf32a5af71"/>
+<approved hash="5,16,78a648c805590b7e"/>
+<approved hash="5,16,800d95397c98691b"/>
+<approved hash="5,16,984c55f4632e5adf"/>
+<approved hash="5,16,da4fdc6394822c2a"/>
+<approved hash="5,16,9e0441a78c95a384"/>
+<approved hash="5,16,da5d04ad2eb7b423"/>
+<approved hash="5,16,9884550c790a5ad7"/>
+<approved hash="5,16,da4fc6378e262c2a"/>
+<approved hash="5,16,c873cd0a5d92ab84"/>
+<approved hash="5,16,2bd37fd379599609"/>
+<approved hash="5,16,a1512aa431c35563"/>
+<approved hash="5,16,fbd7a33eae851991"/>
+<approved hash="5,16,ab0c06798246d1d6"/>
+<approved hash="5,16,400e4cda4277d0bb"/>
+<approved hash="5,16,dabd1e813463b4eb"/>
+<approved hash="5,16,d957019f8594c7d9"/>
+<approved hash="5,16,139d99951cc2f7f1"/>
+<approved hash="5,16,9a9e99961ec0c5f0"/>
+<approved hash="5,16,0628bd583fee4312"/>
+<approved hash="5,16,d3f0549b92a5efbf"/>
+<approved hash="5,16,eb6351dfaff3114b"/>
+<approved hash="5,16,2d9fd3b0a9085323"/>
+<approved hash="5,16,eff0522cacc415dc"/>
+<approved hash="5,16,290cd727aa3f50d0"/>
+<approved hash="5,16,e91e5752a9621372"/>
+<approved hash="5,16,2ae6d28da1e85fdf"/>
+<approved hash="5,16,e90659b9ae6d16e6"/>
+<approved hash="5,16,21fdde1aadea5839"/>
+<approved hash="5,16,7f21a8dffdc6e3d0"/>
+<approved hash="5,16,8795ae5ef3bff35b"/>
+<approved hash="5,16,879dae5ef3bfe9bf"/>
+<approved hash="5,16,158dae87f643e9b9"/>
+<approved hash="5,16,001e5caadbf0df1c"/>
+<approved hash="5,16,8ffccfffee589195"/>
+<approved hash="5,16,d71b8a74904fee24"/>
+<approved hash="5,16,0adbfb5ce132088d"/>
+<approved hash="5,16,040673d7e17eec69"/>
+<approved hash="5,16,562e732487e3abfe"/>
+<approved hash="5,16,1c7965ce9f7c6097"/>
+<approved hash="5,16,1e286dad97ba11b2"/>
+<approved hash="5,16,e546a6e5010cbcd9"/>
+<approved hash="5,16,a67e620dbf6905e0"/>
+<approved hash="5,16,a7586198bdc005fa"/>
+<approved hash="5,16,b669fb9b235f552c"/>
+<approved hash="5,16,27c4abe227298afa"/>
+<approved hash="5,16,475d52342c6e8380"/>
+<approved hash="5,16,10d493ba45171bfa"/>
+<approved hash="5,16,003a7dc38ee50f68"/>
+<approved hash="3,16,35ebef1fee0834fc"/>
+<approved hash="3,16,4cbe904290024cfe"/>
+<approved hash="3,16,23fde001e00223fe"/>
+<approved hash="3,16,1cb5dbf42087584f"/>
+<approved hash="3,16,236dbe91be1023ec"/>
+<approved hash="3,16,0ae8ec9ced930be7"/>
 </errors>
 </board>
 </drawing>
