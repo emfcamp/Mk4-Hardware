@@ -41,7 +41,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC",
+				"requirementName": "SSI2_CC",
 				"requirementId": "MySSI6",
 				"interfacePin": "XDAT1"
 			},
@@ -55,7 +55,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC",
+				"requirementName": "SSI2_CC",
 				"requirementId": "MySSI6",
 				"interfacePin": "XDAT0"
 			},
@@ -69,7 +69,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC",
+				"requirementName": "SSI2_CC",
 				"requirementId": "MySSI6",
 				"interfacePin": "FSS"
 			},
@@ -83,7 +83,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC",
+				"requirementName": "SSI2_CC",
 				"requirementId": "MySSI6",
 				"interfacePin": "CLK"
 			},
@@ -97,7 +97,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Flash",
+				"requirementName": "SSI3 (Flash)",
 				"requirementId": "MySSI5",
 				"interfacePin": "CLK"
 			},
@@ -111,7 +111,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Flash",
+				"requirementName": "SSI3 (Flash)",
 				"requirementId": "MySSI5",
 				"interfacePin": "FSS"
 			},
@@ -125,7 +125,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Flash",
+				"requirementName": "SSI3 (Flash)",
 				"requirementId": "MySSI5",
 				"interfacePin": "XDAT0"
 			},
@@ -167,8 +167,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC_!HIB",
-				"requirementId": "MyGPIO1",
+				"requirementName": "BQ_!INT",
+				"requirementId": "MyGPIO5",
 				"interfacePin": "GPIO#"
 			},
 			"15": {
@@ -181,8 +181,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC_IRQ",
-				"requirementId": "MyGPIO2",
+				"requirementName": "TCA_!INT",
+				"requirementId": "MyGPIO6",
 				"interfacePin": "GPIO#"
 			},
 			"18": {
@@ -195,7 +195,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "MyUART5",
+				"requirementName": "UART4_EXT",
 				"requirementId": "MyUART5",
 				"interfacePin": "RX"
 			},
@@ -209,7 +209,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "MyUART5",
+				"requirementName": "UART4_EXT",
 				"requirementId": "MyUART5",
 				"interfacePin": "TX"
 			},
@@ -237,8 +237,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LCD_!RST",
-				"requirementId": "MyGPIO14",
+				"requirementName": "LCD_TEAR",
+				"requirementId": "MyGPIO12",
 				"interfacePin": "GPIO#"
 			},
 			"22": {
@@ -307,7 +307,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Flash",
+				"requirementName": "SSI3 (Flash)",
 				"requirementId": "MySSI5",
 				"interfacePin": "XDAT1"
 			},
@@ -377,7 +377,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "External I2C",
+				"requirementName": "I2C9 (Internal)",
 				"requirementId": "MyI2C2",
 				"interfacePin": "SCL"
 			},
@@ -391,7 +391,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "External I2C",
+				"requirementName": "I2C9 (Internal)",
 				"requirementId": "MyI2C2",
 				"interfacePin": "SDA"
 			},
@@ -405,7 +405,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LCD",
+				"requirementName": "SSI0_LCD",
 				"requirementId": "MySSI7",
 				"interfacePin": "CLK"
 			},
@@ -419,7 +419,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LCD",
+				"requirementName": "SSI0_LCD",
 				"requirementId": "MySSI7",
 				"interfacePin": "FSS"
 			},
@@ -433,7 +433,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LCD",
+				"requirementName": "SSI0_LCD",
 				"requirementId": "MySSI7",
 				"interfacePin": "XDAT0"
 			},
@@ -447,7 +447,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LCD",
+				"requirementName": "SSI0_LCD",
 				"requirementId": "MySSI7",
 				"interfacePin": "XDAT1"
 			},
@@ -503,8 +503,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LED1",
-				"requirementId": "MyGPIO8",
+				"requirementName": "T_X",
+				"requirementId": "MyGPIO22",
 				"interfacePin": "GPIO#"
 			},
 			"44": {
@@ -517,8 +517,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LED2",
-				"requirementId": "MyGPIO9",
+				"requirementName": "T_Y",
+				"requirementId": "MyGPIO23",
 				"interfacePin": "GPIO#"
 			},
 			"45": {
@@ -545,7 +545,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Flash",
+				"requirementName": "SSI3 (Flash)",
 				"requirementId": "MySSI5",
 				"interfacePin": "XDAT2"
 			},
@@ -587,8 +587,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC_!RST",
-				"requirementId": "MyGPIO3",
+				"requirementName": "BTN_MENU",
+				"requirementId": "MyGPIO21",
 				"interfacePin": "GPIO#"
 			},
 			"61": {
@@ -643,8 +643,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "BQ_!INT",
-				"requirementId": "MyGPIO5",
+				"requirementName": "JOY_UP",
+				"requirementId": "MyGPIO27",
 				"interfacePin": "GPIO#"
 			},
 			"72": {
@@ -657,8 +657,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "TCA_INT",
-				"requirementId": "MyGPIO6",
+				"requirementName": "JOY_CEN",
+				"requirementId": "MyGPIO30",
 				"interfacePin": "GPIO#"
 			},
 			"73": {
@@ -671,8 +671,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "WS2812",
-				"requirementId": "MyGPIO10",
+				"requirementName": "JOY_LEFT",
+				"requirementId": "MyGPIO28",
 				"interfacePin": "GPIO#"
 			},
 			"74": {
@@ -685,8 +685,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "LCD_TEAR",
-				"requirementId": "MyGPIO12",
+				"requirementName": "JOY_DOWN",
+				"requirementId": "MyGPIO26",
 				"interfacePin": "GPIO#"
 			},
 			"75": {
@@ -811,8 +811,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "MUX_A",
-				"requirementId": "MyGPIO18",
+				"requirementName": "LED2",
+				"requirementId": "MyGPIO9",
 				"interfacePin": "GPIO#"
 			},
 			"86": {
@@ -825,8 +825,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "MUX_B",
-				"requirementId": "MyGPIO19",
+				"requirementName": "LED1",
+				"requirementId": "MyGPIO8",
 				"interfacePin": "GPIO#"
 			},
 			"91": {
@@ -839,8 +839,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "JOY",
-				"requirementId": "MyGPIO20",
+				"requirementName": "JOY_RIGHT",
+				"requirementId": "MyGPIO29",
 				"interfacePin": "GPIO#"
 			},
 			"92": {
@@ -895,7 +895,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "SIM UART",
+				"requirementName": "UART1_SIM",
 				"requirementId": "MyUART4",
 				"interfacePin": "RX"
 			},
@@ -909,7 +909,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "SIM UART",
+				"requirementName": "UART1_SIM",
 				"requirementId": "MyUART4",
 				"interfacePin": "TX"
 			},
@@ -979,8 +979,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "SIM_STATUS",
-				"requirementId": "MyGPIO17",
+				"requirementName": "VBUS_DET",
+				"requirementId": "MyGPIO31",
 				"interfacePin": "GPIO#"
 			},
 			"103": {
@@ -1021,8 +1021,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "SIM_NETLIGHT",
-				"requirementId": "MyGPIO15",
+				"requirementName": "MUX_A",
+				"requirementId": "MyGPIO18",
 				"interfacePin": "GPIO#"
 			},
 			"106": {
@@ -1035,8 +1035,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "SIM_PWR_KEY",
-				"requirementId": "MyGPIO16",
+				"requirementName": "MUX_B",
+				"requirementId": "MyGPIO19",
 				"interfacePin": "GPIO#"
 			},
 			"107": {
@@ -1049,8 +1049,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "JOY",
-				"requirementId": "MyGPIO20",
+				"requirementName": "SIM_STATUS",
+				"requirementId": "MyGPIO17",
 				"interfacePin": "GPIO#"
 			},
 			"108": {
@@ -1063,8 +1063,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "JOY",
-				"requirementId": "MyGPIO20",
+				"requirementName": "SIM_NETLIGHT",
+				"requirementId": "MyGPIO15",
 				"interfacePin": "GPIO#"
 			},
 			"109": {
@@ -1077,8 +1077,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "JOY",
-				"requirementId": "MyGPIO20",
+				"requirementName": "SIM_PWR_KEY",
+				"requirementId": "MyGPIO16",
 				"interfacePin": "GPIO#"
 			},
 			"110": {
@@ -1091,8 +1091,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "JOY",
-				"requirementId": "MyGPIO20",
+				"requirementName": "FET",
+				"requirementId": "MyGPIO24",
 				"interfacePin": "GPIO#"
 			},
 			"111": {
@@ -1105,8 +1105,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "BTN_MENU",
-				"requirementId": "MyGPIO21",
+				"requirementName": "LCD_!RST",
+				"requirementId": "MyGPIO14",
 				"interfacePin": "GPIO#"
 			},
 			"112": {
@@ -1119,7 +1119,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "SIM UART",
+				"requirementName": "UART1_SIM",
 				"requirementId": "MyUART4",
 				"interfacePin": "RI"
 			},
@@ -1133,7 +1133,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC UART",
+				"requirementName": "UART3_CC",
 				"requirementId": "MyUART1",
 				"interfacePin": "RX"
 			},
@@ -1147,7 +1147,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "CC UART",
+				"requirementName": "UART3_CC",
 				"requirementId": "MyUART1",
 				"interfacePin": "TX"
 			},
@@ -1161,8 +1161,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "T_X",
-				"requirementId": "MyGPIO22",
+				"requirementName": "CC_!RST",
+				"requirementId": "MyGPIO3",
 				"interfacePin": "GPIO#"
 			},
 			"119": {
@@ -1175,7 +1175,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Flash",
+				"requirementName": "SSI3 (Flash)",
 				"requirementId": "MySSI5",
 				"interfacePin": "XDAT3"
 			},
@@ -1189,7 +1189,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Internal I2C",
+				"requirementName": "IC2C5_EXT",
 				"requirementId": "MyI2C1",
 				"interfacePin": "SDA"
 			},
@@ -1203,7 +1203,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "Internal I2C",
+				"requirementName": "IC2C5_EXT",
 				"requirementId": "MyI2C1",
 				"interfacePin": "SCL"
 			},
@@ -1217,8 +1217,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "T_Y",
-				"requirementId": "MyGPIO23",
+				"requirementName": "CC_IRQ",
+				"requirementId": "MyGPIO2",
 				"interfacePin": "GPIO#"
 			},
 			"124": {
@@ -1231,8 +1231,8 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "FET",
-				"requirementId": "MyGPIO24",
+				"requirementName": "CC_!HIB",
+				"requirementId": "MyGPIO1",
 				"interfacePin": "GPIO#"
 			},
 			"125": {
@@ -1245,7 +1245,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "WS2812B",
+				"requirementName": "T3CCP0_WS2812B",
 				"requirementId": "MyTimer4",
 				"interfacePin": "CCP0"
 			},
@@ -1259,7 +1259,7 @@
 				"errorCount": 0,
 				"warningCount": 0,
 				"nonSolverErrorCount": 0,
-				"requirementName": "External",
+				"requirementName": "CH4",
 				"requirementId": "MyGPIO25",
 				"interfacePin": "GPIO#"
 			},
@@ -2884,7 +2884,7 @@
 									"warningCount": 0,
 									"nonSolverErrorCount": 0
 								},
-								"assignedToName": "6",
+								"assignedToName": "Any",
 								"removable": false,
 								"type": "Single",
 								"name": "S21",
@@ -3566,7 +3566,7 @@
 									"warningCount": 0,
 									"nonSolverErrorCount": 0
 								},
-								"assignedToName": "5",
+								"assignedToName": "Any",
 								"removable": false,
 								"type": "Single",
 								"name": "S20",
@@ -4563,7 +4563,7 @@
 					"warningCount": 0,
 					"nonSolverErrorCount": 0
 				},
-				"requirementsNameIndex": 26,
+				"requirementsNameIndex": 32,
 				"requirements": [
 					{
 						"used": true,
@@ -4590,6 +4590,465 @@
 							"nonSolverErrorCount": 0
 						},
 						"requirementsNameIndex": 4,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PE5",
+											"assignedToName": "124",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "124",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "float",
+												"displayName": "FLOAT"
+											},
+											"io": {
+												"name": "output",
+												"displayName": "Output"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PE5",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO1_intenal_1",
+								"name": "MyGPIO1_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "CC_!HIB",
+								"parentReqID": "MyGPIO1",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "CC_!HIB",
+						"id": "MyGPIO1",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PE4",
+											"assignedToName": "123",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "123",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "float",
+												"displayName": "FLOAT"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PE4",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO2_intenal_1",
+								"name": "MyGPIO2_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "CC_IRQ",
+								"parentReqID": "MyGPIO2",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "CC_IRQ",
+						"id": "MyGPIO2",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PP0",
+											"assignedToName": "118",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "118",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "float",
+												"displayName": "FLOAT"
+											},
+											"io": {
+												"name": "output",
+												"displayName": "Output"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PP0",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO3_intenal_1",
+								"name": "MyGPIO3_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "CC_!RST",
+								"parentReqID": "MyGPIO3",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "CC_!RST",
+						"id": "MyGPIO3",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
 						"requirements": [
 							{
 								"used": true,
@@ -4655,8 +5114,8 @@
 												"displayName": "FLOAT"
 											},
 											"io": {
-												"name": "output",
-												"displayName": "Output"
+												"name": "input",
+												"displayName": "Input"
 											}
 										}
 									}
@@ -4685,11 +5144,11 @@
 								},
 								"isNameValid": true,
 								"assignedToName": "",
-								"id": "MyGPIO1_intenal_1",
-								"name": "MyGPIO1_intenal_1",
+								"id": "MyGPIO5_intenal_1",
+								"name": "MyGPIO5_intenal_1",
 								"interfaceName": "GPIO",
-								"parentReqName": "CC_!HIB",
-								"parentReqID": "MyGPIO1",
+								"parentReqName": "BQ_!INT",
+								"parentReqID": "MyGPIO5",
 								"pinConfigurablesHeader": {
 									"pu_pd": {
 										"name": "float",
@@ -4704,8 +5163,8 @@
 							}
 						],
 						"numOfGPIOPins": 0,
-						"name": "CC_!HIB",
-						"id": "MyGPIO1",
+						"name": "BQ_!INT",
+						"id": "MyGPIO5",
 						"pinConfigurablesHeader": {
 							"pu_pd": {
 								"name": "float",
@@ -4838,512 +5297,10 @@
 								},
 								"isNameValid": true,
 								"assignedToName": "",
-								"id": "MyGPIO2_intenal_1",
-								"name": "MyGPIO2_intenal_1",
-								"interfaceName": "GPIO",
-								"parentReqName": "CC_IRQ",
-								"parentReqID": "MyGPIO2",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "CC_IRQ",
-						"id": "MyGPIO2",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 2,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PK7",
-											"assignedToName": "60",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "output",
-												"displayName": "Output"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PK7",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO3_intenal_1",
-								"name": "MyGPIO3_intenal_1",
-								"interfaceName": "GPIO",
-								"parentReqName": "CC_!RST",
-								"parentReqID": "MyGPIO3",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "CC_!RST",
-						"id": "MyGPIO3",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "Validation",
-							"warningText": "",
-							"errorDetailsText": [
-								"Name cannot be empty!"
-							],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 4,
-						"requirements": [],
-						"numOfGPIOPins": 0,
-						"name": "",
-						"id": "MyGPIO4",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": "Name cannot be empty!"
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 2,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PM7",
-											"assignedToName": "71",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PM7",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO5_intenal_1",
-								"name": "MyGPIO5_intenal_1",
-								"interfaceName": "GPIO",
-								"parentReqName": "BQ_!INT",
-								"parentReqID": "MyGPIO5",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "BQ_!INT",
-						"id": "MyGPIO5",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 2,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PM6",
-											"assignedToName": "72",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PM6",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
 								"id": "MyGPIO6_intenal_1",
 								"name": "MyGPIO6_intenal_1",
 								"interfaceName": "GPIO",
-								"parentReqName": "TCA_INT",
+								"parentReqName": "TCA_!INT",
 								"parentReqID": "MyGPIO6",
 								"pinConfigurablesHeader": {
 									"pu_pd": {
@@ -5359,7 +5316,7 @@
 							}
 						],
 						"numOfGPIOPins": 0,
-						"name": "TCA_INT",
+						"name": "TCA_!INT",
 						"id": "MyGPIO6",
 						"pinConfigurablesHeader": {
 							"pu_pd": {
@@ -5917,8 +5874,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PF1",
-											"assignedToName": "43",
+											"nameDecoratorText": "GPIO_PL5",
+											"assignedToName": "86",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -5938,7 +5895,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "43",
+										"assignedToName": "86",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -5957,7 +5914,7 @@
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PF1",
+									"assignedToName": "GPIO_PL5",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -6070,8 +6027,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PF2",
-											"assignedToName": "44",
+											"nameDecoratorText": "GPIO_PL4",
+											"assignedToName": "85",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -6091,7 +6048,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "44",
+										"assignedToName": "85",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -6110,7 +6067,7 @@
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PF2",
+									"assignedToName": "GPIO_PL4",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -6189,200 +6146,6 @@
 							"warningCount": 0,
 							"nonSolverErrorCount": 0
 						},
-						"requirementsNameIndex": 3,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PM5",
-											"assignedToName": "73",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PM5",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO10_intenal_2",
-								"name": "MyGPIO10_intenal_2",
-								"interfaceName": "GPIO",
-								"parentReqName": "WS2812",
-								"parentReqID": "MyGPIO10",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "WS2812",
-						"id": "MyGPIO10",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "output",
-								"displayName": "Output"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 4,
-						"requirements": [],
-						"numOfGPIOPins": 0,
-						"name": "LCD_BLIGHT",
-						"id": "MyGPIO11",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
 						"requirementsNameIndex": 2,
 						"requirements": [
 							{
@@ -6417,8 +6180,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PM4",
-											"assignedToName": "74",
+											"nameDecoratorText": "GPIO_PK3",
+											"assignedToName": "21",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -6438,7 +6201,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "Any",
+										"assignedToName": "21",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -6449,15 +6212,15 @@
 												"displayName": "FLOAT"
 											},
 											"io": {
-												"name": "output",
-												"displayName": "Output"
+												"name": "input",
+												"displayName": "Input"
 											}
 										}
 									}
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PM4",
+									"assignedToName": "GPIO_PK3",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -6723,8 +6486,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PK3",
-											"assignedToName": "21",
+											"nameDecoratorText": "GPIO_PN4",
+											"assignedToName": "111",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -6744,7 +6507,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "21",
+										"assignedToName": "111",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -6763,7 +6526,7 @@
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PK3",
+									"assignedToName": "GPIO_PN4",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -6876,8 +6639,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PP4",
-											"assignedToName": "105",
+											"nameDecoratorText": "GPIO_PN1",
+											"assignedToName": "108",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -6897,7 +6660,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "105",
+										"assignedToName": "108",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -6916,7 +6679,7 @@
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PP4",
+									"assignedToName": "GPIO_PN1",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -6959,6 +6722,465 @@
 						"numOfGPIOPins": 0,
 						"name": "SIM_NETLIGHT",
 						"id": "MyGPIO15",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PN2",
+											"assignedToName": "109",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "109",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "float",
+												"displayName": "FLOAT"
+											},
+											"io": {
+												"name": "output",
+												"displayName": "Output"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PN2",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO16_intenal_1",
+								"name": "MyGPIO16_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "SIM_PWR_KEY",
+								"parentReqID": "MyGPIO16",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "SIM_PWR_KEY",
+						"id": "MyGPIO16",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PN0",
+											"assignedToName": "107",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "107",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "float",
+												"displayName": "FLOAT"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PN0",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO17_intenal_1",
+								"name": "MyGPIO17_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "SIM_STATUS",
+								"parentReqID": "MyGPIO17",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "SIM_STATUS",
+						"id": "MyGPIO17",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PP4",
+											"assignedToName": "105",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "105",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "float",
+												"displayName": "FLOAT"
+											},
+											"io": {
+												"name": "output",
+												"displayName": "Output"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PP4",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO18_intenal_1",
+								"name": "MyGPIO18_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "MUX_A",
+								"parentReqID": "MyGPIO18",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "MUX_A",
+						"id": "MyGPIO18",
 						"pinConfigurablesHeader": {
 							"pu_pd": {
 								"name": "float",
@@ -7091,465 +7313,6 @@
 								},
 								"isNameValid": true,
 								"assignedToName": "",
-								"id": "MyGPIO16_intenal_1",
-								"name": "MyGPIO16_intenal_1",
-								"interfaceName": "GPIO",
-								"parentReqName": "SIM_PWR_KEY",
-								"parentReqID": "MyGPIO16",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "SIM_PWR_KEY",
-						"id": "MyGPIO16",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 2,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PQ4",
-											"assignedToName": "102",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "102",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PQ4",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO17_intenal_1",
-								"name": "MyGPIO17_intenal_1",
-								"interfaceName": "GPIO",
-								"parentReqName": "SIM_STATUS",
-								"parentReqID": "MyGPIO17",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "SIM_STATUS",
-						"id": "MyGPIO17",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 2,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PL4",
-											"assignedToName": "85",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "output",
-												"displayName": "Output"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PL4",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO18_intenal_1",
-								"name": "MyGPIO18_intenal_1",
-								"interfaceName": "GPIO",
-								"parentReqName": "MUX_A",
-								"parentReqID": "MyGPIO18",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "MUX_A",
-						"id": "MyGPIO18",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"requirementsNameIndex": 2,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PL5",
-											"assignedToName": "86",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "output",
-												"displayName": "Output"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PL5",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
 								"id": "MyGPIO19_intenal_1",
 								"name": "MyGPIO19_intenal_1",
 								"interfaceName": "GPIO",
@@ -7607,603 +7370,6 @@
 							"warningCount": 0,
 							"nonSolverErrorCount": 0
 						},
-						"requirementsNameIndex": 6,
-						"requirements": [
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PB2",
-											"assignedToName": "91",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PB2",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO20_intenal_1",
-								"name": "MyGPIO20_intenal_1",
-								"interfaceName": "GPIO",
-								"parentReqName": "JOY",
-								"parentReqID": "MyGPIO20",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							},
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PN0",
-											"assignedToName": "107",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PN0",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO20_intenal_2",
-								"name": "MyGPIO20_intenal_2",
-								"interfaceName": "GPIO",
-								"parentReqName": "JOY",
-								"parentReqID": "MyGPIO20",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							},
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PN1",
-											"assignedToName": "108",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PN1",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO20_intenal_3",
-								"name": "MyGPIO20_intenal_3",
-								"interfaceName": "GPIO",
-								"parentReqName": "JOY",
-								"parentReqID": "MyGPIO20",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							},
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PN2",
-											"assignedToName": "109",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PN2",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO20_intenal_4",
-								"name": "MyGPIO20_intenal_4",
-								"interfaceName": "GPIO",
-								"parentReqName": "JOY",
-								"parentReqID": "MyGPIO20",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							},
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 1
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": true,
-										"solution": {
-											"nameDecoratorText": "GPIO_PN3",
-											"assignedToName": "110",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PN3",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO20_intenal_5",
-								"name": "MyGPIO20_intenal_5",
-								"interfaceName": "GPIO",
-								"parentReqName": "JOY",
-								"parentReqID": "MyGPIO20",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							}
-						],
-						"numOfGPIOPins": 0,
-						"name": "JOY",
-						"id": "MyGPIO20",
-						"pinConfigurablesHeader": {
-							"pu_pd": {
-								"name": "float",
-								"displayName": "FLOAT"
-							},
-							"io": {
-								"name": "input",
-								"displayName": "Input"
-							}
-						},
-						"requirementNameErrorMessage": ""
-					},
-					{
-						"used": true,
-						"solution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
-						"nonSolverSolution": {
-							"nameDecoratorText": "",
-							"assignedToName": "",
-							"errorText": "",
-							"warningText": "",
-							"errorDetailsText": [],
-							"warningDetailsText": [],
-							"errorCount": 0,
-							"warningCount": 0,
-							"nonSolverErrorCount": 0
-						},
 						"requirementsNameIndex": 2,
 						"requirements": [
 							{
@@ -8238,8 +7404,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PN4",
-											"assignedToName": "111",
+											"nameDecoratorText": "GPIO_PK7",
+											"assignedToName": "60",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -8259,15 +7425,15 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "Any",
+										"assignedToName": "60",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
 										"interfacePinName": "GPIO#",
 										"configurables": {
 											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
+												"name": "pu",
+												"displayName": "PU/1"
 											},
 											"io": {
 												"name": "input",
@@ -8278,7 +7444,7 @@
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PN4",
+									"assignedToName": "GPIO_PK7",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -8391,8 +7557,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PP0",
-											"assignedToName": "118",
+											"nameDecoratorText": "GPIO_PF1",
+											"assignedToName": "43",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -8412,7 +7578,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "Any",
+										"assignedToName": "43",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -8431,7 +7597,7 @@
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PP0",
+									"assignedToName": "GPIO_PF1",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -8544,8 +7710,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PE4",
-											"assignedToName": "123",
+											"nameDecoratorText": "GPIO_PF2",
+											"assignedToName": "44",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -8565,7 +7731,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "Any",
+										"assignedToName": "44",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -8584,7 +7750,7 @@
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PE4",
+									"assignedToName": "GPIO_PF2",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -8697,8 +7863,8 @@
 									{
 										"used": true,
 										"solution": {
-											"nameDecoratorText": "GPIO_PE5",
-											"assignedToName": "124",
+											"nameDecoratorText": "GPIO_PN3",
+											"assignedToName": "110",
 											"errorText": "",
 											"warningText": "",
 											"errorDetailsText": [],
@@ -8718,7 +7884,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "Any",
+										"assignedToName": "110",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -8729,15 +7895,15 @@
 												"displayName": "FLOAT"
 											},
 											"io": {
-												"name": "input",
-												"displayName": "Input"
+												"name": "output",
+												"displayName": "Output"
 											}
 										}
 									}
 								],
 								"peripheralSolution": {
 									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PE5",
+									"assignedToName": "GPIO_PN3",
 									"errorText": "",
 									"warningText": "",
 									"errorDetailsText": [],
@@ -8871,7 +8037,7 @@
 											"warningCount": 0,
 											"nonSolverErrorCount": 0
 										},
-										"assignedToName": "Any",
+										"assignedToName": "126",
 										"removable": false,
 										"type": "Single",
 										"name": "GPIO#",
@@ -8915,340 +8081,7 @@
 								"id": "MyGPIO25_intenal_1",
 								"name": "MyGPIO25_intenal_1",
 								"interfaceName": "GPIO",
-								"parentReqName": "External",
-								"parentReqID": "MyGPIO25",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							},
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 0
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": false,
-										"solution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PD5",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO25_intenal_2",
-								"name": "MyGPIO25_intenal_2",
-								"interfaceName": "GPIO",
-								"parentReqName": "External",
-								"parentReqID": "MyGPIO25",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							},
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 0
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": false,
-										"solution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PE5",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO25_intenal_3",
-								"name": "MyGPIO25_intenal_3",
-								"interfaceName": "GPIO",
-								"parentReqName": "External",
-								"parentReqID": "MyGPIO25",
-								"pinConfigurablesHeader": {
-									"pu_pd": {
-										"name": "float",
-										"displayName": "FLOAT"
-									},
-									"io": {
-										"name": "input",
-										"displayName": "Input"
-									}
-								},
-								"configurables": {}
-							},
-							{
-								"used": true,
-								"solution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0,
-									"gpioPinsUsed": 0
-								},
-								"nonSolverSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"selectedInstance": "Any",
-								"selectedVoltage": "Any",
-								"selectedUseCase": "GPIO",
-								"pinRequirements": [
-									{
-										"used": false,
-										"solution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"nonSolverSolution": {
-											"nameDecoratorText": "",
-											"assignedToName": "",
-											"errorText": "",
-											"warningText": "",
-											"errorDetailsText": [],
-											"warningDetailsText": [],
-											"errorCount": 0,
-											"warningCount": 0,
-											"nonSolverErrorCount": 0
-										},
-										"assignedToName": "Any",
-										"removable": false,
-										"type": "Single",
-										"name": "GPIO#",
-										"interfacePinName": "GPIO#",
-										"configurables": {
-											"pu_pd": {
-												"name": "float",
-												"displayName": "FLOAT"
-											},
-											"io": {
-												"name": "input",
-												"displayName": "Input"
-											}
-										}
-									}
-								],
-								"peripheralSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "GPIO_PD5",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"voltageSolution": {
-									"nameDecoratorText": "",
-									"assignedToName": "",
-									"errorText": "",
-									"warningText": "",
-									"errorDetailsText": [],
-									"warningDetailsText": [],
-									"errorCount": 0,
-									"warningCount": 0,
-									"nonSolverErrorCount": 0
-								},
-								"isNameValid": true,
-								"assignedToName": "",
-								"id": "MyGPIO25_intenal_4",
-								"name": "MyGPIO25_intenal_4",
-								"interfaceName": "GPIO",
-								"parentReqName": "External",
+								"parentReqName": "CH4",
 								"parentReqID": "MyGPIO25",
 								"pinConfigurablesHeader": {
 									"pu_pd": {
@@ -9264,8 +8097,926 @@
 							}
 						],
 						"numOfGPIOPins": 0,
-						"name": "External",
+						"name": "CH4",
 						"id": "MyGPIO25",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PM4",
+											"assignedToName": "74",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "74",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "pd",
+												"displayName": "PD/0"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PM4",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO26_intenal_1",
+								"name": "MyGPIO26_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "JOY_DOWN",
+								"parentReqID": "MyGPIO26",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "JOY_DOWN",
+						"id": "MyGPIO26",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PM7",
+											"assignedToName": "71",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "71",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "pd",
+												"displayName": "PD/0"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PM7",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO27_intenal_1",
+								"name": "MyGPIO27_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "JOY_UP",
+								"parentReqID": "MyGPIO27",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "JOY_UP",
+						"id": "MyGPIO27",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PM5",
+											"assignedToName": "73",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "73",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "pd",
+												"displayName": "PD/0"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PM5",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO28_intenal_1",
+								"name": "MyGPIO28_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "JOY_LEFT",
+								"parentReqID": "MyGPIO28",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "JOY_LEFT",
+						"id": "MyGPIO28",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PB2",
+											"assignedToName": "91",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "91",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "pd",
+												"displayName": "PD/0"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PB2",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO29_intenal_1",
+								"name": "MyGPIO29_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "JOY_RIGHT",
+								"parentReqID": "MyGPIO29",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "JOY_RIGHT",
+						"id": "MyGPIO29",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PM6",
+											"assignedToName": "72",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "72",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "pd",
+												"displayName": "PD/0"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PM6",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO30_intenal_1",
+								"name": "MyGPIO30_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "JOY_CEN",
+								"parentReqID": "MyGPIO30",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "JOY_CEN",
+						"id": "MyGPIO30",
+						"pinConfigurablesHeader": {
+							"pu_pd": {
+								"name": "float",
+								"displayName": "FLOAT"
+							},
+							"io": {
+								"name": "input",
+								"displayName": "Input"
+							}
+						},
+						"requirementNameErrorMessage": ""
+					},
+					{
+						"used": true,
+						"solution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"nonSolverSolution": {
+							"nameDecoratorText": "",
+							"assignedToName": "",
+							"errorText": "",
+							"warningText": "",
+							"errorDetailsText": [],
+							"warningDetailsText": [],
+							"errorCount": 0,
+							"warningCount": 0,
+							"nonSolverErrorCount": 0
+						},
+						"requirementsNameIndex": 2,
+						"requirements": [
+							{
+								"used": true,
+								"solution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0,
+									"gpioPinsUsed": 1
+								},
+								"nonSolverSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"selectedInstance": "Any",
+								"selectedVoltage": "Any",
+								"selectedUseCase": "GPIO",
+								"pinRequirements": [
+									{
+										"used": true,
+										"solution": {
+											"nameDecoratorText": "GPIO_PQ4",
+											"assignedToName": "102",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"nonSolverSolution": {
+											"nameDecoratorText": "",
+											"assignedToName": "",
+											"errorText": "",
+											"warningText": "",
+											"errorDetailsText": [],
+											"warningDetailsText": [],
+											"errorCount": 0,
+											"warningCount": 0,
+											"nonSolverErrorCount": 0
+										},
+										"assignedToName": "102",
+										"removable": false,
+										"type": "Single",
+										"name": "GPIO#",
+										"interfacePinName": "GPIO#",
+										"configurables": {
+											"pu_pd": {
+												"name": "float",
+												"displayName": "FLOAT"
+											},
+											"io": {
+												"name": "input",
+												"displayName": "Input"
+											}
+										}
+									}
+								],
+								"peripheralSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "GPIO_PQ4",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"voltageSolution": {
+									"nameDecoratorText": "",
+									"assignedToName": "",
+									"errorText": "",
+									"warningText": "",
+									"errorDetailsText": [],
+									"warningDetailsText": [],
+									"errorCount": 0,
+									"warningCount": 0,
+									"nonSolverErrorCount": 0
+								},
+								"isNameValid": true,
+								"assignedToName": "",
+								"id": "MyGPIO31_intenal_1",
+								"name": "MyGPIO31_intenal_1",
+								"interfaceName": "GPIO",
+								"parentReqName": "VBUS_DET",
+								"parentReqID": "MyGPIO31",
+								"pinConfigurablesHeader": {
+									"pu_pd": {
+										"name": "float",
+										"displayName": "FLOAT"
+									},
+									"io": {
+										"name": "input",
+										"displayName": "Input"
+									}
+								},
+								"configurables": {}
+							}
+						],
+						"numOfGPIOPins": 0,
+						"name": "VBUS_DET",
+						"id": "MyGPIO31",
 						"pinConfigurablesHeader": {
 							"pu_pd": {
 								"name": "float",
@@ -9517,7 +9268,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MyI2C1",
-						"name": "Internal I2C",
+						"name": "IC2C5_EXT",
 						"interfaceName": "I2C",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -9702,7 +9453,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MyI2C2",
-						"name": "External I2C",
+						"name": "I2C9 (Internal)",
 						"interfaceName": "I2C",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -10622,7 +10373,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MySSI5",
-						"name": "Flash",
+						"name": "SSI3 (Flash)",
 						"interfaceName": "SSI",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -10931,7 +10682,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MySSI6",
-						"name": "CC",
+						"name": "SSI2_CC",
 						"interfaceName": "SSI",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -11240,7 +10991,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MySSI7",
-						"name": "LCD",
+						"name": "SSI0_LCD",
 						"interfaceName": "SSI",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -11456,7 +11207,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MyTimer4",
-						"name": "WS2812B",
+						"name": "T3CCP0_WS2812B",
 						"interfaceName": "Timer",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -11637,7 +11388,7 @@
 									"warningCount": 0,
 									"nonSolverErrorCount": 0
 								},
-								"assignedToName": "Any",
+								"assignedToName": "116",
 								"removable": false,
 								"type": "Single",
 								"name": "RX",
@@ -11887,7 +11638,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MyUART1",
-						"name": "CC UART",
+						"name": "UART3_CC",
 						"interfaceName": "UART",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -12258,7 +12009,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MyUART4",
-						"name": "SIM UART",
+						"name": "UART1_SIM",
 						"interfaceName": "UART",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
@@ -12289,7 +12040,7 @@
 							"warningCount": 0,
 							"nonSolverErrorCount": 0
 						},
-						"selectedInstance": "Any",
+						"selectedInstance": "UART4",
 						"selectedVoltage": "Any",
 						"selectedUseCase": "UART",
 						"pinRequirements": [
@@ -12629,7 +12380,7 @@
 						"isNameValid": true,
 						"assignedToName": "",
 						"id": "MyUART5",
-						"name": "MyUART5",
+						"name": "UART4_EXT",
 						"interfaceName": "UART",
 						"pinConfigurablesHeader": {},
 						"configurables": {},
