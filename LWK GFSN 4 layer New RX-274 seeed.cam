@@ -1,0 +1,267 @@
+{
+    "author": {
+        "email": "dps.lwk@gmail.com",
+        "name": "Matt Lloyd"
+    },
+    "description": {
+        "EN": "EAGLE default 4 layer CAM job."
+    },
+    "output_type": "directory",
+    "outputs": [
+        {
+            "format_specifier": {
+                "decimal": 3,
+                "integer": 3
+            },
+            "output_type": "drill",
+            "outputs": [
+                {
+                    "drills": {
+                        "NPTH": false,
+                        "PTH": true,
+                        "VIA": true
+                    },
+                    "filename_format": "Gerbers/%N_Plated$1$4$PTH$Drill.xln",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Excellon Plated",
+                    "type": "excellon"
+                },
+                {
+                    "drills": {
+                        "NPTH": true,
+                        "PTH": false,
+                        "VIA": false
+                    },
+                    "filename_format": "Gerbers/%N_NonPlated$1$4$NPTH$Drill.xln",
+                    "layers": {
+                        "from": 1,
+                        "to": 16
+                    },
+                    "name": "Excellon NonPlated",
+                    "type": "excellon"
+                }
+            ]
+        },
+        {
+            "filename_prefix": "Gerbers",
+            "format_specifier": {
+                "decimal": 4,
+                "integer": 3
+            },
+            "generate_job_file": true,
+            "output_type": "gerber",
+            "outputs": [
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 1,
+                        "layer_details": "mixed",
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%PREFIX/%N_Copper$L1$Top.gbr",
+                    "layers": [
+                        1,
+                        18,
+                        17
+                    ],
+                    "name": "Top Copper",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 2,
+                        "layer_details": "mixed",
+                        "layer_type": "Inner"
+                    },
+                    "filename_format": "%PREFIX/%N_Copper$L2$Inr.gbr",
+                    "layers": [
+                        2,
+                        17,
+                        18
+                    ],
+                    "name": "EAGLE Copper Layer 2",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 3,
+                        "layer_details": "mixed",
+                        "layer_type": "Inner"
+                    },
+                    "filename_format": "%PREFIX/%N_Copper$L3$Inr.gbr",
+                    "layers": [
+                        15,
+                        17,
+                        18
+                    ],
+                    "name": "EAGLE Copper Layer 15",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Copper",
+                        "layer": 4,
+                        "layer_details": "mixed",
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%PREFIX/%N_Copper$L4$Bot.gbr",
+                    "layers": [
+                        16,
+                        17,
+                        18
+                    ],
+                    "name": "Bottom Copper",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": true,
+                    "config": {
+                        "file_function": "Profile",
+                        "plating": "non-plated"
+                    },
+                    "filename_format": "%PREFIX/%N_Profile$NP.gbr",
+                    "layers": [
+                    ],
+                    "milling": true,
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Soldermask",
+                        "index": 1,
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%PREFIX/%N_Soldermask$Top.gbr",
+                    "layers": [
+                        29
+                    ],
+                    "name": "Soldermask Top",
+                    "polarity": "negative",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Soldermask",
+                        "index": 1,
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%PREFIX/%N_Soldermask$Bot.gbr",
+                    "layers": [
+                        30
+                    ],
+                    "name": "Soldermask Bottom",
+                    "polarity": "negative",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Paste",
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%PREFIX/%N_Paste$Top.gbr",
+                    "layers": [
+                        31
+                    ],
+                    "milling": false,
+                    "name": "Solderpaste Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Paste",
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%PREFIX/%N_Paste$Bot.gbr",
+                    "layers": [
+                        32
+                    ],
+                    "milling": false,
+                    "name": "Solderpaste Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "top"
+                    },
+                    "filename_format": "%PREFIX/%N_Legend$Top.gbr",
+                    "layers": [
+                        21
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Top",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "board_outline": false,
+                    "config": {
+                        "file_function": "Legend",
+                        "index": 1,
+                        "layer_type": "bottom"
+                    },
+                    "filename_format": "%PREFIX/%N_Legend$Bot.gbr",
+                    "layers": [
+                        22
+                    ],
+                    "milling": false,
+                    "name": "Silkscreen Bottom",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                },
+                {
+                    "advanced_options": {
+                        "mirror": false,
+                        "offset_x": 0,
+                        "offset_y": 0,
+                        "rotate": false,
+                        "upside_down": false
+                    },
+                    "board_outline": false,
+                    "config": {
+                        "drill_label": "drill",
+                        "drill_type": "NPTH",
+                        "file_function": "NonPlated",
+                        "i": 1,
+                        "j": 16
+                    },
+                    "filename_format": "%PREFIX/%N_NonPlated$1$4$NPTH$Route.gbr",
+                    "layers": [
+                        46
+                    ],
+                    "milling": false,
+                    "name": "Milling",
+                    "polarity": "positive",
+                    "type": "gerber_layer"
+                }
+            ],
+            "version": "RS274X"
+        }
+    ],
+    "timestamp": "2018-06-28T10:03:39",
+    "type": "EAGLE CAM job",
+    "units": "metric",
+    "version": "8.6.1"
+}
